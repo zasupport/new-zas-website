@@ -1,0 +1,3 @@
+# absence control fixture for blog-monolith-parity
+# comparing against a MISSING snapshot label must yield a DEFINED failure (rc=2), never a crash or silent pass.
+# exercised by: scripts/blog-monolith-parity.sh --test (absence control)

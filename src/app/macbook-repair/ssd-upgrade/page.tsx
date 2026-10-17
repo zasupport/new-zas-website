@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook SSD Upgrade Johannesburg | Faster Boot, More Storage | ZA Support',
   description:
-    'MacBook SSD upgrade in Johannesburg. Replace slow or failing storage on Intel MacBook Air and Pro. Faster boot, more space. Data migration included. Hyde Park. up-to-3 year warranty.',
+    'MacBook SSD upgrade in Johannesburg. Replace slow or failing storage on Intel MacBook Air and Pro. Faster boot, more space. Data migration included. Hyde Park. 12-month warranty.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/ssd-upgrade' },
 };
 
@@ -101,7 +101,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on SSD upgrades?',
     answer:
-      'All SSD upgrades carry a up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at our assessment fee.',
+      'All SSD upgrades carry a 12-month warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -110,7 +110,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook SSD Upgrade Johannesburg',
   description:
-    'MacBook SSD upgrade service in Johannesburg. Replace internal storage on Intel MacBook Air and Pro. Data migration included. up-to-3 year warranty.',
+    'MacBook SSD upgrade service in Johannesburg. Replace internal storage on Intel MacBook Air and Pro. Data migration included. 12-month warranty.',
   url: 'https://zasupport.com/macbook-repair/ssd-upgrade',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
@@ -158,7 +158,7 @@ export default function MacBookSSDUpgradePage() {
             MacBook SSD Upgrade Johannesburg
           </h1>
           <p className="text-xl text-[#7A9E98] mb-4 max-w-2xl mx-auto">
-            Slow MacBook? The drive is usually the problem. We replace Intel MacBook storage with fast SSD. Data migration included. up-to-3 year warranty.
+            Slow MacBook? The drive is usually the problem. We replace Intel MacBook storage with fast SSD. Data migration included. 12-month warranty.
           </p>
           <p className="text-lg font-semibold text-[#0FEA7A] mb-8">
             Assessment · Fixed quote before we start
@@ -169,7 +169,7 @@ export default function MacBookSSDUpgradePage() {
             {[
               { icon: <HardDrive className="w-4 h-4" />, label: 'SSD Upgrade' },
               { icon: <Zap className="w-4 h-4" />, label: 'Data Migration Included' },
-              { icon: <Shield className="w-4 h-4" />, label: 'Up-to-3 Year Warranty' },
+              { icon: <Shield className="w-4 h-4" />, label: '12-Month Warranty' },
               { icon: <CheckCircle className="w-4 h-4" />, label: 'Written Quote First' },
             ].map((badge) => (
               <span

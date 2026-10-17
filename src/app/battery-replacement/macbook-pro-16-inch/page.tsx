@@ -297,7 +297,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All pricing includes the replacement cell, labour, calibration, and a 12-month warranty. Assessment fee applies, credited to the repair.
+            All pricing includes the replacement cell, labour, calibration, and a 12-month warranty. The R599 assessment fee is a separate, non-refundable charge.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-16-inch" />
           <PricingNote variant="inline" />
@@ -449,7 +449,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-Inch Battery Failing?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and the symptoms, poor battery life, swollen bottom case, unexpected shutdowns, or service warning, and we will provide an honest assessment and price before you bring the machine in. Assessment fee applies, credited to the repair.
+              WhatsApp us your model year and the symptoms, poor battery life, swollen bottom case, unexpected shutdowns, or service warning, and we will provide an honest assessment and price before you bring the machine in. The R599 assessment fee is a separate, non-refundable charge.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

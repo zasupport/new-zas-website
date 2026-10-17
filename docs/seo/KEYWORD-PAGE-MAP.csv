@@ -1,0 +1,9 @@
+cluster,intent,canonical_url,historic_impressions,historic_position,historic_clicks,status,notes
+managed-it,managed it services johannesburg,/business,1278,10.6,0,refresh-gsc,B2B visibility gap; authority race
+iphone-battery,iphone battery replacement,/battery-replacement,2196,9.2,41,refresh-gsc,edge of page one
+iphone-battery-cost,iphone battery replacement cost,/battery-replacement,1999,6.9,20,refresh-gsc,commercial intent near top
+iphone-screen,iphone screen repair,/screen-repair,1121,11.7,22,refresh-gsc,page-two opportunity
+macbook-battery,macbook battery replacement,/battery-replacement,595,15.0,11,cannibalisation-check,shares URL with iphone battery
+apple-repair,apple repair,/apple-repair,1150,15.5,3,refresh-gsc,weak category visibility
+macbook-repair-jhb,macbook repair johannesburg,/macbook-repair,,,,cannibalisation-check,homepage outranks hub
+logic-board-jhb,macbook logic board repair johannesburg,/logic-board-repair,,,,cannibalisation-check,homepage+hub+blog+model all rank

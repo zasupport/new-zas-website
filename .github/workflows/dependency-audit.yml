@@ -1,23 +1,56 @@
 name: Dependency advisory check
+# Upgraded 06/10/2026 (section 917 permanence, after the 2026-10-05 advisory batch turned
+# every PR red mid-week): daily instead of weekly, uses the allowlist-aware security gate
+# instead of raw npm audit, and FAILS LOUDLY by opening/updating a GitHub issue instead of
+# silently uploading an artifact nobody reads. The issue is the signal for the next Claude
+# Code session: fix per the section-917 doctrine (fixable=override/bump, unfixable=reviewed
+# allowlist entry, never allowlist a critical).
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 5 * * 1"
+    - cron: "0 4 * * *"
 permissions:
   contents: read
+  issues: write
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
-      - name: Audit the committed lockfile without installation
-        run: npm audit --json --audit-level=moderate > npm-audit.json
+      - name: Allowlist-aware security gate against the committed lockfile
+        id: gate
+        run: |
+          set +e
+          node scripts/security-gate.mjs --check 2>&1 | tee gate-output.txt
+          echo "rc=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: dependency-advisories
-          path: npm-audit.json
+          path: gate-output.txt
+      - name: Open or update the loud advisory issue on failure
+        if: steps.gate.outputs.rc != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="section-917 advisory watchdog: security gate RED on main"
+          BODY="Daily advisory watchdog found blocking advisories on the committed lockfile.
+
+          \`\`\`
+          $(tail -30 gate-output.txt)
+          \`\`\`
+
+          Remediate per the section-917 doctrine: fixable advisories get an override/bump (lock regenerated on node 22); only genuinely unfixable, non-critical ones get a reviewed security-allowlist.json entry with a forced review date. Precedent: PR #27 (2026-10-06)."
+          EXISTING=$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY" --label security
+          fi
+      - name: Fail the run when the gate is red (keeps the badge honest)
+        if: steps.gate.outputs.rc != '0'
+        run: exit 1

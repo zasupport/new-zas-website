@@ -43,7 +43,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure (2016-2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with up-to-3 year warranty.',
+    description: 'Butterfly keyboard failure (2016-2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with 12-month warranty.',
     href: '/macbook-pro-repair/keyboard',
     price: 'Quoted on assessment',
   },
@@ -121,7 +121,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard',
     models: '2016-2019 MacBook Pro',
     icon: Keyboard,
-    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly, keyboard, battery bracket, and all, with a working unit carrying a up-to-3 year warranty.',
+    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly, keyboard, battery bracket, and all, with a working unit carrying a 12-month warranty.',
   },
   {
     name: 'Thermal Throttling',
@@ -240,7 +240,7 @@ export default function MacBookProRepairPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 12-Month Warranty</span>
               <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
@@ -281,7 +281,7 @@ export default function MacBookProRepairPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">MacBook Pro Repairs We Do</h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault, from battery to board-level component-level repair. Same-day diagnosis, fixed pricing, up-to-3 year warranty.</p>
+          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault, from battery to board-level component-level repair. Same-day diagnosis, fixed pricing, 12-month warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
               const Icon = svc.icon;
@@ -340,7 +340,7 @@ export default function MacBookProRepairPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee. All repairs include up-to-3 year warranty.</p>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee. All repairs include 12-month warranty.</p>
           <PricingNote />
         </div>
       </section>

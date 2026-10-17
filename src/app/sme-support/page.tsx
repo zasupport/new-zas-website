@@ -30,7 +30,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'SME Apple Support Johannesburg | Business IT Solutions | ZA Support',
   description:
-    'SME Apple support and business IT solutions in Johannesburg. Managed services, dedicated account manager, specialist networking, Apple repairs and software development. BEE Level 1. Assessment.',
+    'SME Apple support and business IT solutions in Johannesburg. Managed services, dedicated account manager, specialist networking, Apple repairs and software development. B-BBEE Level 4. Assessment.',
   alternates: { canonical: 'https://zasupport.com/sme-support' },
   keywords: [
     'sme apple support johannesburg',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     'sme it solutions johannesburg',
     'apple business support hyde park',
     'managed it services sme johannesburg',
-    'bee level 1 it provider',
+    'b-bbee level 4 it provider',
     'apple software development johannesburg',
   ],
 };
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 const serviceSchema = buildServiceSchema({
   name: 'SME Apple Support & Business IT Solutions',
   description:
-    'Comprehensive Apple support, managed IT services, repairs, networking and software development for small and medium enterprises in Johannesburg. BEE Level 1 provider. Contact for pricing.',
+    'Comprehensive Apple support, managed IT services, repairs, networking and software development for small and medium enterprises in Johannesburg. B-BBEE Level 4 provider. Contact for pricing.',
   lowPrice: '599',
   highPrice: '1100',
 });
@@ -66,7 +66,7 @@ const SME_FAQS = [
   {
     question: 'Are you a BEE-accredited IT provider?',
     answer:
-      'Yes. Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, is a BEE Level 1 services provider. This means procurement from us maximises your BEE scorecard points, particularly valuable for businesses tendering or working with government and corporate clients in South Africa.',
+      'Yes. ZA Support is a B-BBEE Level 4 services provider. This means procurement from us earns 100% B-BBEE procurement recognition on your scorecard, particularly valuable for businesses tendering or working with government and corporate clients in South Africa.',
   },
   {
     question: 'Do you offer business finance for Apple hardware purchases?',
@@ -131,7 +131,7 @@ const SME_SERVICES = [
   {
     icon: Shield,
     title: 'Industry-Leading Warranties',
-    desc: 'Up-to-3 year warranty on all repairs. Written quotes before work begins. Assessment on diagnostics.',
+    desc: '12-month warranty on all repairs. Written quotes before work begins. Assessment on diagnostics.',
   },
   {
     icon: Package,
@@ -140,8 +140,8 @@ const SME_SERVICES = [
   },
   {
     icon: BadgeCheck,
-    title: 'BEE Level 1 Provider',
-    desc: 'Maximise your BEE scorecard. Vizibiliti Intelligent Solutions (Pty) Ltd is a verified BEE Level 1 services provider.',
+    title: 'B-BBEE Level 4 Provider',
+    desc: 'Strengthen your B-BBEE scorecard. ZA Support is a verified B-BBEE Level 4 services provider.',
   },
 ];
 
@@ -219,7 +219,7 @@ export default function SMESupportPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { value: '16 Years', label: 'Apple Expertise' },
-              { value: 'BEE Level 1', label: 'Accredited Provider' },
+              { value: 'B-BBEE Level 4', label: 'Accredited Provider' },
               { value: SITE.rating + '\u2605', label: 'Google Rating' },
               { value: 'Transparent', label: 'Pricing' },
             ].map((stat) => (
@@ -340,12 +340,12 @@ export default function SMESupportPage() {
             </div>
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                BEE Level 1 &amp; Business Finance
+                B-BBEE Level 4 &amp; Business Finance
               </h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
-                  Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, is a verified
-                  BEE Level 1 services provider. For South African businesses that need to meet BEE
+                  ZA Support is a verified
+                  B-BBEE Level 4 services provider. For South African businesses that need to meet BEE
                   procurement targets, particularly those tendering for government or corporate
                   contracts, every rand spent with us counts at the maximum recognition level on
                   your scorecard.
@@ -535,7 +535,7 @@ export default function SMESupportPage() {
               Ready to Upgrade Your Business IT?
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment. BEE Level 1 provider. 1 Hyde Lane, Hyde Park, Johannesburg 2196.
+              Assessment. B-BBEE Level 4 provider. 1 Hyde Lane, Hyde Park, Johannesburg 2196.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

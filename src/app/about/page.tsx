@@ -7,7 +7,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park',
   description:
-    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. up-to-3 year warranty.",
+    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. 12-month warranty.",
   alternates: { canonical: 'https://zasupport.com/about' },
   keywords: [
     'apple repair specialist johannesburg',
@@ -27,7 +27,6 @@ const localBusinessSchema = {
   '@id': 'https://zasupport.com/#organization',
   name: 'ZA Support',
   alternateName: 'Apple Experts',
-  legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   description: 'Johannesburg Apple repair specialists and certified Mac technicians since 2009. Logic board component-level repair, JAMF MDM, and managed IT for medical practices and businesses across Gauteng.',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
@@ -152,7 +151,6 @@ const organizationSchema = {
   '@type': 'Organization',
   '@id': 'https://zasupport.com/#organization',
   name: 'ZA Support',
-  legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
   foundingDate: '2009',
@@ -274,7 +272,7 @@ export default function AboutPage() {
                   { icon: Award, text: 'Apple fleet management for businesses and medical practices' },
                   { icon: Cpu, text: 'Component-level MacBook logic board repair since 2009' },
                   { icon: Star, text: '4.9★ Google rating across 632+ verified client reviews' },
-                  { icon: Shield, text: 'Assessment, transparent pricing, up-to-3 year warranty on all repairs' },
+                  { icon: Shield, text: 'Assessment, transparent pricing, 12-month warranty on all repairs' },
                   { icon: CheckCircle, text: '50,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex gap-3 items-start">
@@ -294,7 +292,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Our Story</h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
-                  Founded in 2009 in Hyde Park, we chose board-level component-level repair when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a up-to-3 year warranty on every repair.
+                  Founded in 2009 in Hyde Park, we chose board-level component-level repair when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a 12-month warranty on every repair.
                 </p>
                 <p>
                   Today we serve medical practices, businesses, and professionals across Johannesburg, combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Lane, Second Floor, Office E2004.
@@ -308,7 +306,7 @@ export default function AboutPage() {
                   { icon: Cpu, title: 'Microscope-Level Component-level repair', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
                   { icon: Award, title: 'Apple MDM Specialists', desc: 'We implement and manage Apple device fleets for organisations across Gauteng using industry-leading MDM solutions.' },
                   { icon: Star, title: '4.9★ on Google, 632+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
-                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'An assessment fee applies. Written quote before any work begins. up-to-3 year warranty on all repairs. No surprises.' },
+                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'An assessment fee applies. Written quote before any work begins. 12-month warranty on all repairs. No surprises.' },
                 ].map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex gap-4 p-4 bg-[rgba(22,34,32,0.5)] rounded-xl border border-[rgba(15,234,122,0.08)]">
                     <div className="w-10 h-10 bg-[rgba(15,234,122,0.1)] rounded-xl flex items-center justify-center flex-shrink-0">
@@ -362,7 +360,7 @@ export default function AboutPage() {
               <div className="space-y-3">
                 {[
                   { label: 'Trading Name', value: 'ZA Support' },
-                  { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
+                  { label: 'Business information', value: 'Further business or legal information is available for review upon request.' },
                   { label: 'Founded', value: '2009' },
                   { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                   { label: 'Service Area', value: 'Greater Johannesburg / Gauteng' },

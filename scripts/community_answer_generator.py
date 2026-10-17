@@ -5,8 +5,8 @@ everything from community-answer-generator.py using importlib.
 
 Import as: from community_answer_generator import generate_answer
 """
+
 import importlib.util
-import sys
 from pathlib import Path
 
 _file = Path(__file__).parent / "community-answer-generator.py"

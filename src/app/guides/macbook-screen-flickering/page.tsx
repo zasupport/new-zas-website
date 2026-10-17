@@ -150,7 +150,7 @@ const faqs = [
   {
     question: 'How much does it cost to fix MacBook screen flickering in Johannesburg?',
     answer:
-      'The cost depends on the root cause. Software fixes (NVRAM reset, macOS update, Safe Mode isolation) cost nothing. Display cable or Flexgate repair, backlight IC repair on the logic board, full display assembly replacement, and GPU or logic board repair are each priced according to the model and fault. Our assessment fee applies and is credited toward the repair cost if you proceed. No Fix No Fee on every job.',
+      'The cost depends on the root cause. Software fixes (NVRAM reset, macOS update, Safe Mode isolation) cost nothing. Display cable or Flexgate repair, backlight IC repair on the logic board, full display assembly replacement, and GPU or logic board repair are each priced according to the model and fault. The R599 assessment fee is a separate, non-refundable charge. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'My MacBook screen flickers only at certain lid angles. What is wrong?',
@@ -170,7 +170,7 @@ const faqs = [
   {
     question: 'Does ZA Support offer a warranty on screen flickering repairs?',
     answer:
-      'Yes. All display cable, backlight IC, GPU, and T-Con board repairs at ZA Support carry a 12-month warranty covering both parts and labour. Display assembly replacements carry our standard up-to-3 year warranty. We provide a formal job card documenting the fault and repair performed, and can issue a VAT invoice for insurance claims. Our No Fix No Fee policy means you pay nothing if we cannot resolve the flickering.',
+      'Yes. All display cable, backlight IC, GPU, and T-Con board repairs at ZA Support carry a 12-month warranty covering both parts and labour. Display assembly replacements carry our standard 12-month warranty. We provide a formal job card documenting the fault and repair performed, and can issue a VAT invoice for insurance claims. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Should I reset NVRAM or SMC first for screen flickering?',
@@ -205,11 +205,11 @@ export default function MacBookScreenFlickeringGuidePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Park Lane, Hyde Park, JHB 2196 | Assessment | No Fix No Fee</span>
+              <span>Every repair is quoted in writing after assessment, and you approve the quote before any work begins</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Cpu, label: 'Board-Level Specialists' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
@@ -465,7 +465,7 @@ export default function MacBookScreenFlickeringGuidePage() {
             Still Flickering? We Will Find the Cause.
           </h2>
           <p className="text-[#7A9E98] text-lg mb-8 leading-relaxed">
-            Send us your MacBook serial number on WhatsApp and describe the flicker. We will tell you the most likely cause before you even come in. Assessment, applied toward repair if you proceed. No Fix No Fee.
+            Send us your MacBook serial number on WhatsApp and describe the flicker. We will tell you the most likely cause before you even come in. Assessment, applied toward repair if you proceed. Fixed written quotes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -24,7 +24,12 @@ Modes:
   --test     §244/§584/§704 controls: orphan MUST fail; clean MUST pass; noindex/redirect stubs
              absent from sitemap MUST pass (no false-fail); missing inputs MUST fail-closed
 """
-import os, re, sys, tempfile, shutil
+
+import os
+import re
+import sys
+import tempfile
+import shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -56,9 +61,9 @@ def enumerate_routes(app_dir):
             continue
         rel = os.path.relpath(dp, app_dir)
         segs = [] if rel == "." else rel.split(os.sep)
-        if any(s.startswith("_") for s in segs):          # private folder, not a route
+        if any(s.startswith("_") for s in segs):  # private folder, not a route
             continue
-        if any("[" in s for s in segs):                    # dynamic route, handled elsewhere
+        if any("[" in s for s in segs):  # dynamic route, handled elsewhere
             continue
         url_segs = [s for s in segs if not (s.startswith("(") and s.endswith(")"))]  # route groups
         url = "/" + "/".join(url_segs) if url_segs else "/"
@@ -114,13 +119,21 @@ def scan():
         print(f"FAIL (fail-closed): {err}", file=sys.stderr)
         return 1
     if orphans:
-        print(f"FAIL F6: {len(orphans)} ORPHAN static route(s) — indexable, live, but NOT in "
-              f"sitemap.ts and not redirected:", file=sys.stderr)
+        print(
+            f"FAIL F6: {len(orphans)} ORPHAN static route(s) — indexable, live, but NOT in "
+            f"sitemap.ts and not redirected:",
+            file=sys.stderr,
+        )
         for o in orphans:
-            print(f"  - {o}   (add to src/app/sitemap.ts, OR noindex it, OR redirect it)", file=sys.stderr)
+            print(
+                f"  - {o}   (add to src/app/sitemap.ts, OR noindex it, OR redirect it)",
+                file=sys.stderr,
+            )
         return 1
-    print("OK F6: 0 orphan static routes (every indexable route is in the sitemap or "
-          "legitimately excluded via noindex/redirect)")
+    print(
+        "OK F6: 0 orphan static routes (every indexable route is in the sitemap or "
+        "legitimately excluded via noindex/redirect)"
+    )
     return 0
 
 
@@ -139,10 +152,10 @@ def test():
     REDIR = "import { redirect } from 'next/navigation';\nexport default function P(){ redirect('/hub'); }"
 
     mkpage("/", INDEXABLE)
-    mkpage("/listed", INDEXABLE)          # indexable + in sitemap  -> ok
-    mkpage("/noindexed", NOINDEX)         # noindex, absent from sitemap -> MUST pass
-    mkpage("/stub", REDIR)                # redirect(), absent from sitemap -> MUST pass
-    mkpage("/redir-src", INDEXABLE)       # indexable but a redirect source -> ok
+    mkpage("/listed", INDEXABLE)  # indexable + in sitemap  -> ok
+    mkpage("/noindexed", NOINDEX)  # noindex, absent from sitemap -> MUST pass
+    mkpage("/stub", REDIR)  # redirect(), absent from sitemap -> MUST pass
+    mkpage("/redir-src", INDEXABLE)  # indexable but a redirect source -> ok
 
     sm = os.path.join(td, "sitemap.ts")
     open(sm, "w").write("const base='x';\nurl: base\n`${base}/listed`,\n")
@@ -154,9 +167,12 @@ def test():
     # POSITIVE (clean): no orphans
     orph, err = find_orphans(app, sm, cfg, vj)
     if err is None and orph == []:
-        print("  PASS positive: clean tree (noindex + redirect stub + redirect-source all excluded) -> 0 orphans")
+        print(
+            "  PASS positive: clean tree (noindex + redirect stub + redirect-source all excluded) -> 0 orphans"
+        )
     else:
-        print(f"  FAIL positive: err={err} orphans={orph}"); rc = 1
+        print(f"  FAIL positive: err={err} orphans={orph}")
+        rc = 1
 
     # NEGATIVE control: inject a real orphan (indexable, not listed, not redirected)
     mkpage("/orphan-xyz", INDEXABLE)
@@ -164,27 +180,31 @@ def test():
     if orph == ["/orphan-xyz"]:
         print("  PASS neg-control: orphan provably CAUGHT (gate can fail)")
     else:
-        print(f"  FAIL neg-control: expected ['/orphan-xyz'], got {orph}"); rc = 1
+        print(f"  FAIL neg-control: expected ['/orphan-xyz'], got {orph}")
+        rc = 1
 
     # NEGATIVE control 2 (no false-fail): the noindex + stub pages must NEVER be flagged
     if "/noindexed" not in orph and "/stub" not in orph:
         print("  PASS no-false-fail: noindex page + redirect stub NOT flagged as orphans")
     else:
-        print(f"  FAIL no-false-fail: noindex/stub wrongly flagged: {orph}"); rc = 1
+        print(f"  FAIL no-false-fail: noindex/stub wrongly flagged: {orph}")
+        rc = 1
 
     # §704 ABSENCE control: missing sitemap => fail-closed (error, never a silent PASS)
     _, err = find_orphans(app, os.path.join(td, "nope-sitemap.ts"), cfg, vj)
     if err:
         print("  PASS absence-control: missing sitemap -> fail-closed (not a silent pass)")
     else:
-        print("  FAIL absence-control: missing sitemap did NOT fail-closed"); rc = 1
+        print("  FAIL absence-control: missing sitemap did NOT fail-closed")
+        rc = 1
 
     # §704 ABSENCE control 2: missing app dir => fail-closed
     _, err = find_orphans(os.path.join(td, "nope-app"), sm, cfg, vj)
     if err:
         print("  PASS absence-control-2: missing app dir -> fail-closed")
     else:
-        print("  FAIL absence-control-2: missing app dir did NOT fail-closed"); rc = 1
+        print("  FAIL absence-control-2: missing app dir did NOT fail-closed")
+        rc = 1
 
     shutil.rmtree(td)
     print("TEST: ALL PASS" if rc == 0 else "TEST: FAIL")

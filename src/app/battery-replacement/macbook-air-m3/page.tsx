@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M3 Battery Replacement Johannesburg 2026 | ZA Support',
-  description: 'MacBook Air M3 battery replacement in Johannesburg. Service Battery warning, swollen battery, rapid drain. Same-day replacement. No Fix No Fee.',
+  description: 'MacBook Air M3 battery replacement in Johannesburg. Service Battery warning, swollen battery, rapid drain. Same-day replacement. Fixed written quotes.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air-m3' },
 };
 

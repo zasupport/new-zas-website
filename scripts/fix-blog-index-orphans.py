@@ -13,7 +13,13 @@ and named, rather than emitted with a placeholder (§374: no fabricated content)
   --dry-run   (default) show exactly what would be added, change nothing
   --apply     write the change (backup kept as page.tsx.bak-orphanfix-<epoch>)
 """
-import re, sys, os, time, json, shutil
+
+import re
+import sys
+import os
+import time
+import json
+import shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITEMAP = os.path.join(ROOT, "src", "app", "sitemap.ts")
@@ -33,7 +39,7 @@ def field_for(content_text, slug, field):
     start = re.search(r"'" + re.escape(slug) + r"':\s*\{", content_text)
     if not start:
         return None
-    seg = content_text[start.end(): start.end() + 6000]
+    seg = content_text[start.end() : start.end() + 6000]
     m = re.search(field + r"\s*:\s*(?P<q>['\"`])(?P<v>(?:\\.|(?!(?P=q)).)*)(?P=q)", seg, re.S)
     if not m:
         return None
@@ -63,10 +69,21 @@ def main():
             skipped.append((s, missing))
             continue
         # json.dumps gives correctly-escaped double-quoted strings -> valid TS.
-        row = ("  { slug: " + json.dumps(s) + ", title: " + json.dumps(vals["title"])
-               + ", excerpt: " + json.dumps(vals["excerpt"]) + ", date: " + json.dumps(vals["date"])
-               + ", category: " + json.dumps(vals["category"])
-               + ", readTime: " + json.dumps(vals["readTime"]) + " },")
+        row = (
+            "  { slug: "
+            + json.dumps(s)
+            + ", title: "
+            + json.dumps(vals["title"])
+            + ", excerpt: "
+            + json.dumps(vals["excerpt"])
+            + ", date: "
+            + json.dumps(vals["date"])
+            + ", category: "
+            + json.dumps(vals["category"])
+            + ", readTime: "
+            + json.dumps(vals["readTime"])
+            + " },"
+        )
         rows.append(row)
 
     print(f"orphans: {len(orphans)}  emit: {len(rows)}  skipped(missing metadata): {len(skipped)}")
@@ -75,7 +92,7 @@ def main():
     for r in rows[:3]:
         print("  +", r[:150])
     if len(rows) > 3:
-        print(f"  ... and {len(rows)-3} more")
+        print(f"  ... and {len(rows) - 3} more")
 
     if not apply:
         print("\n(dry run — nothing written; pass --apply to write)")
@@ -109,7 +126,8 @@ def main():
         fh.write(new_text)
     # verify the temp file BEFORE promoting (§573): every orphan must now be present.
     check = set(re.findall(r"slug:\s*'([a-z0-9-]+)'", read(tmp))) | set(
-        re.findall(r'slug:\s*"([a-z0-9-]+)"', read(tmp)))
+        re.findall(r'slug:\s*"([a-z0-9-]+)"', read(tmp))
+    )
     still = [s for s in orphans if s not in check and s not in [x[0] for x in skipped]]
     if still:
         os.unlink(tmp)

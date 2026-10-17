@@ -15,11 +15,13 @@ Four real checks:
                  glyphs (so a no-op fix would be caught) AND a deliberately
                  un-normalised string fails the same assertion.
 """
+
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import importlib
+
 abi = importlib.import_module("auto-blog-insert")
 
 EM = "—"  # —
@@ -40,7 +42,7 @@ Data loss happens fast {EM} a spill, a surge, a drop {EN} these are daily here a
 Most repairs fall in the R2,800{EN}R8,500 range {EM} the assessment is R599.
 """
 
-results = []
+results: list = []
 
 
 def check(name, ok):

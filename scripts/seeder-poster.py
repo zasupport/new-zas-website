@@ -9,7 +9,6 @@ Credentials come from Personas/personas.json
 Max: 2 questions/seeder/night | Delay: 5-10 min between posts
 """
 
-import os
 import sys
 import json
 import time
@@ -22,8 +21,8 @@ PERSONA_FILE = HOME / "Desktop" / "Claude" / "Personas" / "personas.json"
 REDDIT_DRAFT_DIR = HOME / "Desktop" / "Claude" / "Reddit"
 LOG_FILE = HOME / ".za-seeder-poster.log"
 MAX_PER_SEEDER_PER_NIGHT = 2
-MIN_DELAY = 300   # 5 min
-MAX_DELAY = 600   # 10 min
+MIN_DELAY = 300  # 5 min
+MAX_DELAY = 600  # 10 min
 
 
 def log(msg: str):
@@ -93,7 +92,9 @@ def post_reddit_question(page, subreddit: str, title: str, body: str) -> tuple[b
             return False, "not logged in — redirected to login page"
 
         # Select "Text" tab (self post)
-        text_tab = page.locator("a[href*='submit?selftext=true'], li.selected-tab a:has-text('Text'), a:has-text('Text')").first
+        text_tab = page.locator(
+            "a[href*='submit?selftext=true'], li.selected-tab a:has-text('Text'), a:has-text('Text')"
+        ).first
         try:
             if text_tab.is_visible(timeout=3000):
                 text_tab.click()
@@ -115,14 +116,16 @@ def post_reddit_question(page, subreddit: str, title: str, body: str) -> tuple[b
         if body_area.is_visible(timeout=3000):
             body_area.click()
             time.sleep(1)
-            chunks = [body[i:i+50] for i in range(0, len(body), 50)]
+            chunks = [body[i : i + 50] for i in range(0, len(body), 50)]
             for chunk in chunks:
                 body_area.type(chunk, delay=random.randint(20, 60))
                 time.sleep(random.uniform(0.1, 0.3))
             time.sleep(2)
 
         # Submit
-        submit = page.locator("button[type='submit'].save, button:has-text('Submit'), input[type='submit'][value='submit']").first
+        submit = page.locator(
+            "button[type='submit'].save, button:has-text('Submit'), input[type='submit'][value='submit']"
+        ).first
         submit.click()
         time.sleep(6)
 
@@ -166,18 +169,28 @@ def main():
         log("No personas configured — run: python3 scripts/persona-manager.py --init")
         return 0
 
-    active_seeders = [p for p in personas if p.get("role") == "seeder" and p.get("active")
-                      and p.get("reddit_username") and p.get("reddit_password")]
+    active_seeders = [
+        p
+        for p in personas
+        if p.get("role") == "seeder"
+        and p.get("active")
+        and p.get("reddit_username")
+        and p.get("reddit_password")
+    ]
 
     if not active_seeders:
         log("No active seeder personas with Reddit credentials")
-        log("Add Reddit username/password to Desktop/Claude/Personas/personas.json and set active=true")
+        log(
+            "Add Reddit username/password to Desktop/Claude/Personas/personas.json and set active=true"
+        )
         return 0
 
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        log("ERROR: playwright not installed. Run: pip3 install playwright && python3 -m playwright install chromium")
+        log(
+            "ERROR: playwright not installed. Run: pip3 install playwright && python3 -m playwright install chromium"
+        )
         return 1
 
     total_posted = 0
@@ -247,13 +260,13 @@ def main():
                                 ad["question_url"] = result
                                 ad["post_url"] = result
                                 af.write_text(json.dumps(ad, indent=2, ensure_ascii=False))
-                                log(f"  Updated answer draft with question URL")
+                                log("  Updated answer draft with question URL")
                             except Exception:
                                 pass
 
                     if posted_this_persona < MAX_PER_SEEDER_PER_NIGHT:
                         delay = random.randint(MIN_DELAY, MAX_DELAY)
-                        log(f"  Waiting {delay}s ({delay//60}m) before next post...")
+                        log(f"  Waiting {delay}s ({delay // 60}m) before next post...")
                         time.sleep(delay)
                 else:
                     mark_failed(draft_path, result)
@@ -265,7 +278,7 @@ def main():
 
     log(f"\nDone — Posted: {total_posted} | Failed: {total_failed}")
     if total_posted > 0:
-        log(f"Authority account should answer after ≥1h delay (reddit_poster.py will handle this)")
+        log("Authority account should answer after ≥1h delay (reddit_poster.py will handle this)")
     return 0
 
 

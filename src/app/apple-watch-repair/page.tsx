@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
   description:
-    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. Assessment. up-to-3 year warranty. Hyde Park.',
+    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. Assessment. 12-month warranty. Hyde Park.',
   keywords: [
     'apple watch repair johannesburg',
     'apple watch screen crack johannesburg',
@@ -160,7 +160,7 @@ export default function AppleWatchRepairPage() {
               Cracked Apple Watch screen or dead battery? Screen and battery replacement for Series 3 through Series 9 and Apple Watch SE.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment. up-to-3 year warranty. Assessment. Hyde Park, Johannesburg.
+              Assessment. 12-month warranty. Assessment. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -329,7 +329,7 @@ export default function AppleWatchRepairPage() {
               },
               {
                 title: 'Warranty',
-                desc: 'All Apple Watch repairs carry a parts and labour up-to-3 year warranty. Same fault, we fix it at our assessment fee.',
+                desc: 'All Apple Watch repairs carry a parts and labour 12-month warranty. Same fault, we fix it at our assessment fee.',
               },
               {
                 title: 'Sensor Testing',
@@ -414,7 +414,7 @@ export default function AppleWatchRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Screen replacement &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Crown repair
             </p>
-            <p className="text-[#7A9E98] mb-8">Assessment. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment. 12-month warranty. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('WATCH', 'apple-watch')}

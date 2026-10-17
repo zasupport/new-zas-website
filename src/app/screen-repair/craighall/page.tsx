@@ -108,7 +108,7 @@ export default function ScreenRepairCraighallPage() {
               <span>Hyde Park, Johannesburg | Assessment | Collecting from Craighall, approx 5-8 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Available', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
+              {['Same-Day Available', 'Fixed Quote First', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -178,7 +178,7 @@ export default function ScreenRepairCraighallPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Screen Damaged? Assessment.</h2>
-            <p className="text-[#7A9E98] mb-6">Collecting from Craighall. Same-day available. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-6">Collecting from Craighall. Same-day available. Fixed written quotes.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SR-CRAIGHALL', 'screen')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

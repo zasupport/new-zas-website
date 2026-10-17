@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 
 SCRIPTS_DIR = Path(__file__).parent
 sys.path.insert(0, str(SCRIPTS_DIR))
-from community_answer_generator import generate_answer
+from community_answer_generator import generate_answer  # noqa: E402  intentional: import after sys.path.insert makes the local module importable
 
 # ── Config ──────────────────────────────────────────────────────────────────
 HOME = Path.home()
@@ -59,9 +59,22 @@ DEVICE_CATEGORIES = [
 ]
 
 RELEVANCE_KEYWORDS = [
-    "logic board", "won't turn on", "not turning on", "liquid", "water",
-    "not charging", "won't charge", "black screen", "no power", "dead",
-    "battery", "swollen", "backlight", "no display", "magsafe", "usb-c",
+    "logic board",
+    "won't turn on",
+    "not turning on",
+    "liquid",
+    "water",
+    "not charging",
+    "won't charge",
+    "black screen",
+    "no power",
+    "dead",
+    "battery",
+    "swollen",
+    "backlight",
+    "no display",
+    "magsafe",
+    "usb-c",
 ]
 
 SKIP_IF_ANSWERED_OVER = 3  # Skip if already has >3 answers (well-covered)
@@ -80,7 +93,7 @@ def save_seen(seen: set):
     SEEN_FILE.write_text(json.dumps(list(seen), indent=2))
 
 
-def api_get(endpoint: str, params: dict = None) -> dict:
+def api_get(endpoint: str, params: dict | None = None) -> dict:
     url = f"{IFIXIT_API}/{endpoint}"
     if params:
         url += "?" + urllib.parse.urlencode(params)

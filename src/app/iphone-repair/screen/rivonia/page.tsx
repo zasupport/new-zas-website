@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'Do you repair iPads and MacBooks from Rivonia as well?',
-    answer: 'Yes. We repair MacBooks, iPads, Apple Watches, AirPods, and iMacs in addition to iPhones. Collection from Rivonia covers all Apple device types.',
+    answer: 'Yes. We repair MacBooks, iPads, Apple Watches and iMacs in addition to iPhones. Collection from Rivonia covers all Apple device types.',
   },
 ];
 

@@ -14,7 +14,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'iMac Battery & Power Supply Repair Johannesburg [2026] | ZA Support',
   description:
-    'iMac CMOS battery & PSU repair in Johannesburg. Clock resets, boot failures, kernel panics, voltage spike damage. No Fix No Fee. Assessment. Call 064 529 5863.',
+    'iMac CMOS battery & PSU repair in Johannesburg. Clock resets, boot failures, kernel panics, voltage spike damage. Fixed written quotes. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/imac' },
   keywords: [
     'iMac CMOS battery replacement Johannesburg',
@@ -240,10 +240,10 @@ export default function BatteryReplacementImacPage() {
               </div>
               <div className="flex flex-wrap gap-3 mb-8">
                 {[
-                  { icon: Shield, label: 'No Fix No Fee' },
+                  { icon: Shield, label: 'Fixed Quote First' },
                   { icon: Battery, label: 'CMOS Repair' },
                   { icon: Zap, label: 'PSU Repair' },
-                  { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                  { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                   { icon: Clock, label: '1-5 Day Turnaround' },
                 ].map(({ icon: Icon, label }) => (
                   <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -315,7 +315,7 @@ export default function BatteryReplacementImacPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">iMac Power Repair Pricing</h2>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              All prices include parts, labour, SMC reset, and an up-to-3 year warranty. Assessment, waived if you proceed with the repair. Compare with Apple Store pricing, where both CMOS and PSU faults are typically handled as a logic board replacement at many times the cost.
+              All prices include parts, labour, SMC reset, and an 12-month warranty. Assessment, waived if you proceed with the repair. Compare with Apple Store pricing, where both CMOS and PSU faults are typically handled as a logic board replacement at many times the cost.
             </p>
             <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
               <table className="w-full text-sm">
@@ -429,7 +429,7 @@ export default function BatteryReplacementImacPage() {
                   <li>PSU capacitor repair, component-level, not board-swap by default</li>
                   <li>ESR testing on every capacitor before quoting</li>
                   <li>All work in our Hyde Park workshop, your machine never leaves our hands</li>
-                  <li>Up-to-3 year warranty on parts and labour</li>
+                  <li>12-month warranty on parts and labour</li>
                   <li>Written UPS recommendation included with every PSU repair</li>
                 </ul>
               </div>
@@ -437,7 +437,7 @@ export default function BatteryReplacementImacPage() {
             <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
               <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                No Fix No Fee applies to every iMac power repair. If we complete the full assessment and the fault is beyond economic repair, you pay the assessment fee and the machine is returned exactly as received. We will tell you honestly if replacement makes more sense than repair.
+                Every repair is quoted in writing after assessment, and you approve the quote before any work begins. If we complete the full assessment and the fault is beyond economic repair, you pay the assessment fee and the machine is returned exactly as received. We will tell you honestly if replacement makes more sense than repair.
               </p>
             </div>
           </div>
@@ -491,7 +491,7 @@ export default function BatteryReplacementImacPage() {
                 iMac Not Starting After Load Shedding? Get a Diagnosis Today.
               </h2>
               <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-                CMOS and PSU repairs at our Hyde Park workshop. Assessment, waived if you proceed. No Fix No Fee. WhatsApp us a description of the fault and we will give you an indicative price within the hour.
+                CMOS and PSU repairs at our Hyde Park workshop. Assessment, waived if you proceed. Fixed written quotes. WhatsApp us a description of the fault and we will give you an indicative price within the hour.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a

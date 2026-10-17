@@ -650,6 +650,10 @@
       [
         "/mac-data-recovery",
         "Recovery limitations"
+      ],
+      [
+        "/logic-board-repair",
+        "Component-level logic board repair"
       ]
     ],
     "sources": [

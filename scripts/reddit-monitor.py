@@ -67,11 +67,26 @@ SEARCH_QUERIES = [
 ]
 
 RELEVANCE_KEYWORDS = [
-    "logic board", "motherboard", "won't turn on", "not turning on",
-    "liquid damage", "water damage", "spill", "not charging", "won't charge",
-    "black screen", "no display", "dead mac", "load shedding", "power surge",
-    "eskom", "repair cost", "johannesburg", "south africa",
-    "apple store quoted", "apple quoted",
+    "logic board",
+    "motherboard",
+    "won't turn on",
+    "not turning on",
+    "liquid damage",
+    "water damage",
+    "spill",
+    "not charging",
+    "won't charge",
+    "black screen",
+    "no display",
+    "dead mac",
+    "load shedding",
+    "power surge",
+    "eskom",
+    "repair cost",
+    "johannesburg",
+    "south africa",
+    "apple store quoted",
+    "apple quoted",
 ]
 
 SKIP_KEYWORDS = ["[solved]", "solved:", "fixed:", "never mind", "update: fixed"]
@@ -103,7 +118,7 @@ def reddit_get(url: str) -> dict:
             return json.loads(resp.read().decode())
     except urllib.error.HTTPError as e:
         if e.code == 429:
-            print(f"  Rate limited — sleeping 60s")
+            print("  Rate limited — sleeping 60s")
             time.sleep(60)
         else:
             print(f"  HTTP {e.code}: {url}")
@@ -184,6 +199,7 @@ def post_via_praw(post_id: str, subreddit: str, answer: str) -> bool:
         return False
     try:
         import praw
+
         reddit = praw.Reddit(
             client_id=CLIENT_ID,
             client_secret=CLIENT_SECRET,
@@ -204,7 +220,7 @@ def main():
     print(f"Reddit Monitor v2.0 — {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print(f"Mode: {'AUTO-POST' if AUTO_POST else 'DRAFT ONLY (manual posting required)'}")
     if not AUTO_POST:
-        print(f"Note: Account DesperateBonus6367 needs karma before auto-posting.")
+        print("Note: Account DesperateBonus6367 needs karma before auto-posting.")
         print(f"      Drafts saved to {DRAFT_DIR} — post manually to build karma.")
     print("=" * 60)
 
@@ -261,7 +277,7 @@ def main():
 
     # Phase 2: Keyword search for SA/JHB specific questions
     if drafts_created < MAX_DRAFTS_PER_NIGHT:
-        print(f"\nSearching for SA-specific questions...")
+        print("\nSearching for SA-specific questions...")
         for query in SEARCH_QUERIES[-3:]:  # Last 3 are SA-specific
             if drafts_created >= MAX_DRAFTS_PER_NIGHT:
                 break
@@ -300,8 +316,8 @@ def main():
     print(f"Total API cost: ${total_cost:.4f}")
     print(f"Drafts: {DRAFT_DIR}")
     if not AUTO_POST:
-        print(f"\nNext step: Review drafts and post manually at reddit.com")
-        print(f"Auto-posting enabled when: karma >100 + REDDIT_AUTO_POST=true + API approved")
+        print("\nNext step: Review drafts and post manually at reddit.com")
+        print("Auto-posting enabled when: karma >100 + REDDIT_AUTO_POST=true + API approved")
     return 0
 
 

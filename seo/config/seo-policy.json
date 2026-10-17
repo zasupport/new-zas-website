@@ -1,0 +1,72 @@
+{
+  "$comment": "ZA Support organic-growth SEO policy. Machine-readable source of truth for audit scripts, CI gates and tests. Derived from the Master Claude Code Handoff (Organic Growth) v1.0, 1 September 2026. Approval-gated: production/content/GBP/GSC changes require explicit human approval.",
+  "version": "1.0",
+  "generated": "2026-09-01",
+  "site": {
+    "apex_canonical": "https://zasupport.com",
+    "www_host": "https://www.zasupport.com",
+    "stack": { "framework": "next-app-router", "hosting": "vercel", "cms": "sanity" }
+  },
+  "host_canonical_policy": {
+    "canonical_host": "apex",
+    "www_requirement": "one_hop_301_to_apex",
+    "note": "Historic audit found www serving HTTP 200 while declaring canonical to apex. A clean 301 is preferred. APPROVAL-GATED, preview-verified, rollback-planned. Do not merge without approval."
+  },
+  "indexability": {
+    "sitemap_membership": "derived_from_canonical_and_indexable_only",
+    "exclude_from_sitemap": ["search_results", "utility_routes", "redirects", "noindex_pages", "duplicate_templates", "error_pages"],
+    "lastmod": "truthful_or_omit",
+    "protected_disallow": ["/api/", "/admin/", "/studio/"],
+    "ai_crawler_permissions": "do_not_silently_alter"
+  },
+  "metadata_policy": {
+    "meta_keywords": "forbidden_remove_if_present",
+    "title_og_divergence": "allowed_only_if_deliberate_and_documented",
+    "note": "Historic audit: homepage <title> and og:title differed. Establish intentional policy; document any deliberate divergence in DECISIONS.md."
+  },
+  "schema_policy": {
+    "allowed_types": ["Organization", "LocalBusiness", "ComputerRepairService", "Service", "BreadcrumbList", "ItemList", "FAQPage", "BlogPosting", "WebPage", "WebSite", "Person"],
+    "search_action": "only_if_site_search_works",
+    "aggregate_rating_selfmarkup": "forbidden",
+    "note": "Never emit self-serving AggregateRating/Review JSON-LD for ZA Support's own reviews (§166 amended, Google ineligibility + manual-action risk). Display rating as plain visible text sourced from GBP."
+  },
+  "content_policy": {
+    "banned": ["keyword_stuffing", "hidden_text", "cloaking", "doorway_pages", "scaled_location_model_pages", "spun_content", "unreviewed_bulk_ai_pages", "copied_competitor_content", "misleading_redirects"],
+    "no_wordcount_or_density_targets": true,
+    "no_mass_service_location_model_expansion": true,
+    "autopublish": "forbidden_human_approval_required"
+  },
+  "reviews_policy": {
+    "single_source": "google_business_profile",
+    "refresh": "realtime_or_weekly_min",
+    "no_hardcoded_competing_figures": true,
+    "no_self_serving_aggregaterating": true,
+    "no_review_solicitation_automation": true,
+    "stale_fallback": "state_last_updated_date_or_suppress_never_fabricate"
+  },
+  "assessment_fee_policy": {
+    "iphone_ipad_watch": { "amount": 599, "currency": "ZAR", "vat": "excluding" },
+    "computers": { "amount": 899, "currency": "ZAR", "vat": "excluding" },
+    "separate": true,
+    "non_refundable": true,
+    "credited_toward_repair": false,
+    "included_in_quote": false,
+    "no_repair_without_written_approval": true,
+    "legacy_conflict_to_remove": "FAQ previously said the assessment fee is included in the total if the repair proceeds — conflicts with approved policy, remove everywhere."
+  },
+  "pricing_display_policy": {
+    "indicative_only_unless_stated": true,
+    "no_repair_price_ranges_without_owner_source": true,
+    "no_apple_price_comparisons_specific_figures": true,
+    "no_offer_or_aggregateoffer_pricing_schema": true
+  },
+  "geography": {
+    "primary": ["Johannesburg", "Gauteng"],
+    "secondary_conditional": ["Pretoria", "Tshwane"],
+    "no_national_provincial_matrices_without_demand": true
+  },
+  "approval_boundary": {
+    "autonomous_allowed": ["read_repos", "read_logs", "read_public_pages", "read_gsc", "read_analytics", "read_vercel", "conservative_crawl", "generate_reports", "branch_drafts", "preview_prs", "test_results", "rollback_plans"],
+    "requires_human_approval": ["merge_pr", "deploy_production", "publish_content", "alter_gbp", "change_search_console", "change_canonical_robots_redirect_policy", "send_customer_comms", "create_reviews", "create_backlinks", "modify_pricing_legal_trust_claims"]
+  }
+}

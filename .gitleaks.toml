@@ -1,0 +1,30 @@
+# .gitleaks.toml — repo secret-scan config (§917).
+#
+# Committed as a NO-OP that keeps FULL default detection. It exists so the leak
+# remediation has a ready, documented home — NOT to hide anything today.
+title = "ZA Support new-zas-website"
+
+[extend]
+useDefault = true
+
+# ─────────────────────────────────────────────────────────────────────────────
+# ALLOWLIST — DELIBERATELY INACTIVE. Do NOT uncomment until the exposed
+# credentials are ROTATED (dead). Allowlisting a still-LIVE secret hides a real
+# exposure and is banned by §917. This block greens the CI "secrets" leg for the
+# ONE already-known, POST-ROTATION historical finding without rewriting public
+# git history (which §1 / §800 forbid force-pushing).
+#
+# Known finding (public since commit c0e07ce, ~26/03/2026):
+#   scripts/reddit-phase-notify.py — 3 Reddit account passwords + 3 Gmail
+#   addresses. HEAD was redacted 15/09/2026; the values remain in history.
+#
+# ACTIVATION (only after Courtney confirms all three are rotated):
+#   1. Rotate every exposed credential; confirm the old ones are dead.
+#   2. Uncomment the block below; set `rotated` in the comment to the date.
+#   3. Commit. The secrets leg goes green because the finding is remediated,
+#      not concealed.
+#
+# [allowlist]
+#   description = "reddit-phase-notify.py creds — rotated <DD/MM/YYYY>, HEAD redacted, history retained"
+#   paths = ['''scripts/reddit-phase-notify\.py''']
+# ─────────────────────────────────────────────────────────────────────────────

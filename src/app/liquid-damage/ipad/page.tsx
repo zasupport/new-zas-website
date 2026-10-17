@@ -11,7 +11,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Liquid Damage Repair Johannesburg',
   description:
-    'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Assessment, up-to-3 year warranty. Call 064 529 5863.',
+    'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Assessment, 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/ipad' },
 };
 
@@ -61,7 +61,7 @@ export default function iPadLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPad liquid damage repair. All iPad models including M4 iPad Pro.
-              Assessment, up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment, 12-month warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

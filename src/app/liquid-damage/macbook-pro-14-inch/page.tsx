@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Pro 14-inch liquid damage repair Johannesburg. HDMI port, SD slot, MagSafe 3 corrosion specialists. Assessment. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro 14-inch liquid damage repair Johannesburg. HDMI port, SD slot, MagSafe 3 corrosion specialists. Assessment. Fixed written quotes. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch liquid damage repair Johannesburg',
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro 14-inch be repaired?',
     answer:
-      'Yes, in most cases. The MacBook Pro 14-inch, across the 2021 M1 Pro/Max (A2442), 2023 M2 Pro/Max (A2779), and 2023 M3/M3 Pro/M3 Max (A2918/A2992) generations, uses Apple Silicon chips with discrete support ICs for USB-C, MagSafe 3, HDMI, and SD card connectivity. These peripheral controllers are individually replaceable, meaning a full logic board replacement is rarely necessary. We have repaired all three generations of 14-inch MacBook Pro at our Hyde Park workshop. Assessment, No Fix No Fee.',
+      'Yes, in most cases. The MacBook Pro 14-inch, across the 2021 M1 Pro/Max (A2442), 2023 M2 Pro/Max (A2779), and 2023 M3/M3 Pro/M3 Max (A2918/A2992) generations, uses Apple Silicon chips with discrete support ICs for USB-C, MagSafe 3, HDMI, and SD card connectivity. These peripheral controllers are individually replaceable, meaning a full logic board replacement is rarely necessary. We have repaired all three generations of 14-inch MacBook Pro at our Hyde Park workshop. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Why is the MacBook Pro 14-inch particularly vulnerable to liquid damage?',
@@ -60,7 +60,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 14-inch liquid damage repair cost?',
     answer:
-      'Cost depends on which generation (M1 Pro, M2 Pro, M3) and which circuits are affected. A MagSafe or USB-C controller replacement is at the lower end. HDMI controller corrosion or multi-channel memory bus damage on an M1 Max or M3 Max board requires more work and extends repair time. All repairs are quoted in writing after the assessment, before any work begins. No Fix No Fee applies to every case.',
+      'Cost depends on which generation (M1 Pro, M2 Pro, M3) and which circuits are affected. A MagSafe or USB-C controller replacement is at the lower end. HDMI controller corrosion or multi-channel memory bus damage on an M1 Max or M3 Max board requires more work and extends repair time. All repairs are quoted in writing after the assessment, before any work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro 14-inch?',
@@ -107,7 +107,7 @@ const failurePoints = [
   },
   {
     title: 'SD Card Slot Ingress and Controller',
-    desc: 'The SD card slot is one of the most direct liquid ingress paths on the 14-inch MacBook Pro. When liquid enters, it tracks along the 9-pin SD bus to the UHS-II SD controller IC on the right side of the logic board. We have seen SD slot spills that contaminated the Thunderbolt controller adjacent to the SD IC, a cascade fault that presents as both no SD card detection and intermittent Thunderbolt on the right port. Full right-side port diagnostic is included in every 14-inch assessment.',
+    desc: 'The SD card slot is one of the most direct liquid ingress paths on the 14-inch MacBook Pro. When liquid enters, it tracks along the 9-pin SD bus to the UHS-II SD controller IC on the right side of the logic board. We have seen SD slot spills that contaminated the Thunderbolt controller adjacent to the SD IC, a cascade fault that presents as both no SD card detection and intermittent Thunderbolt on the right port. The R599 assessment fee is a separate, non-refundable charge.',
     severity: 'high',
   },
   {
@@ -154,7 +154,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro 14-inch liquid damage repair in Johannesburg. HDMI, SD card, MagSafe 3, and Thunderbolt 4 port specialists. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 14-inch liquid damage repair in Johannesburg. HDMI, SD card, MagSafe 3, and Thunderbolt 4 port specialists. Ultrasonic cleaning, component-level repair. Assessment. 12-month warranty.',
   lowPrice: '4900',
   highPrice: '17150',
 });
@@ -187,10 +187,10 @@ export default function MacBookPro14InchLiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M3 Pro & Max' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -226,7 +226,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -300,7 +300,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every 14-inch case, if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -331,7 +331,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
                 <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>HDMI, SD card, MagSafe, Thunderbolt individually repaired</li>
-                <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
+                <li>Turnaround 24-72 hours, 12-month warranty</li>
                 <li>M1 Max / M3 Max multi-die memory repair available</li>
               </ul>
             </div>
@@ -459,7 +459,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
               MacBook Pro 14-Inch Liquid Damage? Every Hour Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 14-inch&apos;s five liquid ingress points and Apple Silicon voltage tolerances make speed more critical than most people realise. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment. No Fix No Fee.
+              The 14-inch&apos;s five liquid ingress points and Apple Silicon voltage tolerances make speed more critical than most people realise. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment. Fixed written quotes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -478,7 +478,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

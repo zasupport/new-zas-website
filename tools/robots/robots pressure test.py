@@ -46,66 +46,82 @@ BOM = "\ufeff"
 
 CONTROLS = [
     # ---------------------------------------------------------------- positive
-    ("POSITIVE", "wide open",
-     "User-agent: *\nAllow: /\n"),
-    ("POSITIVE", "current production shape, private paths only",
-     "User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /admin/\nDisallow: /studio/\n"),
-    ("POSITIVE", "empty file",
-     ""),
-    ("POSITIVE", "comments only",
-     "# nothing to see here\n# still nothing\n"),
-    ("POSITIVE", "query strings blocked, clean URLs untouched",
-     "User-agent: *\nAllow: /\nDisallow: /*?\n"),
-    ("POSITIVE", "another crawler blocked entirely, Googlebot free",
-     "User-agent: SemrushBot\nDisallow: /\n\nUser-agent: *\nAllow: /\n"),
-    ("POSITIVE", "Allow overrides a broader Disallow",
-     "User-agent: *\nDisallow: /blog/\nAllow: /blog/\n"),
-    ("POSITIVE", "CRLF line endings",
-     "User-agent: *\r\nAllow: /\r\nDisallow: /admin/\r\n"),
-    ("POSITIVE", "UTF-8 byte order mark present",
-     BOM + "User-agent: *\nAllow: /\nDisallow: /admin/\n"),
-    ("POSITIVE", "trailing whitespace and blank lines",
-     "User-agent: *   \n\n\nAllow: /   \n\nDisallow: /admin/  \n\n"),
-
+    ("POSITIVE", "wide open", "User-agent: *\nAllow: /\n"),
+    (
+        "POSITIVE",
+        "current production shape, private paths only",
+        "User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /admin/\nDisallow: /studio/\n",
+    ),
+    ("POSITIVE", "empty file", ""),
+    ("POSITIVE", "comments only", "# nothing to see here\n# still nothing\n"),
+    (
+        "POSITIVE",
+        "query strings blocked, clean URLs untouched",
+        "User-agent: *\nAllow: /\nDisallow: /*?\n",
+    ),
+    (
+        "POSITIVE",
+        "another crawler blocked entirely, Googlebot free",
+        "User-agent: SemrushBot\nDisallow: /\n\nUser-agent: *\nAllow: /\n",
+    ),
+    (
+        "POSITIVE",
+        "Allow overrides a broader Disallow",
+        "User-agent: *\nDisallow: /blog/\nAllow: /blog/\n",
+    ),
+    ("POSITIVE", "CRLF line endings", "User-agent: *\r\nAllow: /\r\nDisallow: /admin/\r\n"),
+    (
+        "POSITIVE",
+        "UTF-8 byte order mark present",
+        BOM + "User-agent: *\nAllow: /\nDisallow: /admin/\n",
+    ),
+    (
+        "POSITIVE",
+        "trailing whitespace and blank lines",
+        "User-agent: *   \n\n\nAllow: /   \n\nDisallow: /admin/  \n\n",
+    ),
     # ---------------------------------------------------------------- negative
-    ("NEGATIVE", "whole site blocked",
-     "User-agent: *\nDisallow: /\n"),
-    ("NEGATIVE", "blog section blocked",
-     "User-agent: *\nAllow: /\nDisallow: /blog/\n"),
-    ("NEGATIVE", "Googlebot singled out and blocked",
-     "User-agent: Googlebot\nDisallow: /\n\nUser-agent: *\nAllow: /\n"),
-    ("NEGATIVE", "lowercase directive, same effect",
-     "user-agent: *\ndisallow: /blog/\n"),
-    ("NEGATIVE", "wildcard swallowing the blog path",
-     "User-agent: *\nAllow: /\nDisallow: /b*g/\n"),
-    ("NEGATIVE", "single money page blocked",
-     "User-agent: *\nAllow: /\nDisallow: /logic-board-repair\n"),
-    ("NEGATIVE", "answers hub blocked",
-     "User-agent: *\nAllow: /\nDisallow: /answers/\n"),
-    ("NEGATIVE", "homepage end-anchored block",
-     "User-agent: *\nAllow: /\nDisallow: /$\n"),
-    ("NEGATIVE", "staging style block left in production",
-     "User-agent: *\nDisallow: /\nSitemap: https://zasupport.com/sitemap.xml\n"),
-    ("NEGATIVE", "nested path blocked",
-     "User-agent: *\nAllow: /\nDisallow: /imac-repair/\n"),
-    ("NEGATIVE", "CRLF whole site block",
-     "User-agent: *\r\nDisallow: /\r\n"),
-    ("NEGATIVE", "BOM plus whole site block",
-     BOM + "User-agent: *\nDisallow: /\n"),
-    ("NEGATIVE", "BOM plus blog block",
-     BOM + "User-agent: *\nAllow: /\nDisallow: /blog/\n"),
-    ("NEGATIVE", "lone CR separators, whole site block",
-     "User-agent: *\rDisallow: /\r"),
-    ("NEGATIVE", "rules pushed beyond the 500 KiB ceiling are not trusted",
-     "User-agent: *\nDisallow: /\n" + ("# padding\n" * 60000)),
+    ("NEGATIVE", "whole site blocked", "User-agent: *\nDisallow: /\n"),
+    ("NEGATIVE", "blog section blocked", "User-agent: *\nAllow: /\nDisallow: /blog/\n"),
+    (
+        "NEGATIVE",
+        "Googlebot singled out and blocked",
+        "User-agent: Googlebot\nDisallow: /\n\nUser-agent: *\nAllow: /\n",
+    ),
+    ("NEGATIVE", "lowercase directive, same effect", "user-agent: *\ndisallow: /blog/\n"),
+    ("NEGATIVE", "wildcard swallowing the blog path", "User-agent: *\nAllow: /\nDisallow: /b*g/\n"),
+    (
+        "NEGATIVE",
+        "single money page blocked",
+        "User-agent: *\nAllow: /\nDisallow: /logic-board-repair\n",
+    ),
+    ("NEGATIVE", "answers hub blocked", "User-agent: *\nAllow: /\nDisallow: /answers/\n"),
+    ("NEGATIVE", "homepage end-anchored block", "User-agent: *\nAllow: /\nDisallow: /$\n"),
+    (
+        "NEGATIVE",
+        "staging style block left in production",
+        "User-agent: *\nDisallow: /\nSitemap: https://zasupport.com/sitemap.xml\n",
+    ),
+    ("NEGATIVE", "nested path blocked", "User-agent: *\nAllow: /\nDisallow: /imac-repair/\n"),
+    ("NEGATIVE", "CRLF whole site block", "User-agent: *\r\nDisallow: /\r\n"),
+    ("NEGATIVE", "BOM plus whole site block", BOM + "User-agent: *\nDisallow: /\n"),
+    ("NEGATIVE", "BOM plus blog block", BOM + "User-agent: *\nAllow: /\nDisallow: /blog/\n"),
+    ("NEGATIVE", "lone CR separators, whole site block", "User-agent: *\rDisallow: /\r"),
+    (
+        "NEGATIVE",
+        "rules pushed beyond the 500 KiB ceiling are not trusted",
+        "User-agent: *\nDisallow: /\n" + ("# padding\n" * 60000),
+    ),
 ]
 
 
 def _load_normaliser():
     """Use the guard's own normaliser so the test exercises production code."""
     import importlib.util
+
     spec = importlib.util.spec_from_file_location(
-        "guardmod", Path(__file__).resolve().parent / "robots guard.py")
+        "guardmod", Path(__file__).resolve().parent / "robots guard.py"
+    )
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod.normalise_robots
@@ -126,17 +142,19 @@ def run(urls=None, verbose=False):
     for kind, name, body in CONTROLS:
         blocked = blocked_count(body, urls)
         guard_fires = len(blocked) > 0
-        should_fire = (kind == "NEGATIVE")
-        ok = (guard_fires == should_fire)
+        should_fire = kind == "NEGATIVE"
+        ok = guard_fires == should_fire
 
-        results.append({
-            "control": kind,
-            "name": name,
-            "guard_fired": guard_fires,
-            "expected_to_fire": should_fire,
-            "blocked_urls": len(blocked),
-            "pass": ok,
-        })
+        results.append(
+            {
+                "control": kind,
+                "name": name,
+                "guard_fired": guard_fires,
+                "expected_to_fire": should_fire,
+                "blocked_urls": len(blocked),
+                "pass": ok,
+            }
+        )
         if not ok:
             failures.append((kind, name, guard_fires, len(blocked)))
 
@@ -154,10 +172,14 @@ def run(urls=None, verbose=False):
     print("=" * 72)
     print("ROBOTS GUARD PRESSURE TEST")
     print("=" * 72)
-    print(f"  positive controls : {len(pos) - len(false_alarms)}/{len(pos)} passed"
-          f"   (false alarms: {len(false_alarms)})")
-    print(f"  negative controls : {len(neg) - len(blind_spots)}/{len(neg)} passed"
-          f"   (blind spots:  {len(blind_spots)})")
+    print(
+        f"  positive controls : {len(pos) - len(false_alarms)}/{len(pos)} passed"
+        f"   (false alarms: {len(false_alarms)})"
+    )
+    print(
+        f"  negative controls : {len(neg) - len(blind_spots)}/{len(neg)} passed"
+        f"   (blind spots:  {len(blind_spots)})"
+    )
     print(f"  sample URLs       : {len(urls)}")
     print("=" * 72)
 
@@ -174,18 +196,25 @@ def run(urls=None, verbose=False):
 
     out = Path(__file__).resolve().parent / "state" / "pressure test.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({
-        "positive_total": len(pos), "positive_passed": len(pos) - len(false_alarms),
-        "negative_total": len(neg), "negative_passed": len(neg) - len(blind_spots),
-        "results": results,
-    }, indent=2), encoding="utf-8")
+    out.write_text(
+        json.dumps(
+            {
+                "positive_total": len(pos),
+                "positive_passed": len(pos) - len(false_alarms),
+                "negative_total": len(neg),
+                "negative_passed": len(neg) - len(blind_spots),
+                "results": results,
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
 
     if not failures:
         print("RESULT PASS. The guard fires on every regression and stays quiet otherwise.")
         return 0
     print(f"RESULT FAIL. {len(failures)} control(s) misbehaved.")
     return 1
-
 
 
 def run_baseline_controls():
@@ -195,7 +224,9 @@ def run_baseline_controls():
     identified the fail-open baseline as the highest-severity defect. These shell
     the real guard so the test exercises production behaviour, not a reimplementation.
     """
-    import subprocess, tempfile, os
+    import subprocess
+    import tempfile
+
     here = Path(__file__).resolve().parent
     guard = here / "robots guard.py"
     if not guard.exists():
@@ -222,9 +253,11 @@ def run_baseline_controls():
         for name, extra, want in cases:
             r = subprocess.run(
                 ["python3", str(guard), "--robots", str(robots), "--quiet"] + extra,
-                capture_output=True, text=True)
+                capture_output=True,
+                text=True,
+            )
             got = r.returncode
-            good = (got == want)
+            good = got == want
             passed = passed and good
             print(f"  [{'PASS' if good else 'FAIL'}] {name:44} exit {got} (want {want})")
     return passed

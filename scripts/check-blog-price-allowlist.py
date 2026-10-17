@@ -19,7 +19,13 @@ ZA prices with legitimate competitor/Apple anchors) never block a commit. New
 invented-price content cannot reach git; legacy remediation is a separate
 Courtney-gated decision (§190/§384).
 """
-import re, subprocess, sys, os, json
+
+import re
+import subprocess
+import sys
+import os
+import json
+from collections import Counter  # noqa: E402 — used by _net_added (move-aware §788 netting)
 
 # --- ALLOWED derives from the registry SoT (§354 no-fork). The pricing-matrix
 # loader (za-blog-pricing-matrix.py --load) writes ~/.za-blog-price-anchors.json;
@@ -28,8 +34,19 @@ import re, subprocess, sys, os, json
 # Standing values (assessment/labour) + a fallback set (used only if the registry
 # is unreadable) keep the gate working fail-safe.
 _STANDING = {"R599", "R899"}
-_FALLBACK = {"R599", "R800", "R2,000", "R3,000", "R3,500", "R1,200",
-             "R2,500", "R2,999", "R899", "R1,900", "R5,500"}
+_FALLBACK = {
+    "R599",
+    "R800",
+    "R2,000",
+    "R3,000",
+    "R3,500",
+    "R1,200",
+    "R2,500",
+    "R2,999",
+    "R899",
+    "R1,900",
+    "R5,500",
+}
 _REGISTRY = os.path.expanduser("~/.za-blog-price-anchors.json")
 
 
@@ -41,7 +58,8 @@ def _norm(tok: str):
     t = t.replace("zar", "").replace("rand", "").replace("grand", "").replace("r", "")
     kmul = 1
     if t.endswith("k"):
-        kmul = 1000; t = t[:-1]
+        kmul = 1000
+        t = t[:-1]
     t = t.rstrip(".,")
     if not t:
         return None
@@ -83,9 +101,9 @@ ALLOWED = registry_allowed()
 # Literal uppercase 'R' (currency), NOT mid-word (so "over 15,000" / "for 3 years"
 # never match); case-insensitivity is scoped to the rand/grand branch only.
 TOKEN_RE = re.compile(
-    r"(?i:\bZAR\s?\d[\d,]*\.?\d*[kK]?)"                   # ZAR 15,000 | ZAR15000  (see note)
-    r"|(?i:\b\d[\d,]*\.?\d*\s?[kK]?\s?ZAR\b)"             # 15,000 ZAR | 2800 ZAR
-    r"|(?<![A-Za-z])R\s?\d[\d,]*\.?\d*[kK]?"              # R2,800 | R2800 | R3k | R2.8k
+    r"(?i:\bZAR\s?\d[\d,]*\.?\d*[kK]?)"  # ZAR 15,000 | ZAR15000  (see note)
+    r"|(?i:\b\d[\d,]*\.?\d*\s?[kK]?\s?ZAR\b)"  # 15,000 ZAR | 2800 ZAR
+    r"|(?<![A-Za-z])R\s?\d[\d,]*\.?\d*[kK]?"  # R2,800 | R2800 | R3k | R2.8k
     r"|(?i:\b\d[\d,]*\.?\d*\s?[kK]?\s?(?:rand|grand)\b)"  # 2,800 rand | 3 grand
 )
 # ZAR added 19/07/2026 after an adversarial review found a LIVE violation: the R-branch's
@@ -122,7 +140,7 @@ def offenders(text: str):
         raw = m.group(0).strip().rstrip(".,")
         canon = _norm(raw)
         s = max(0, m.start() - 48)
-        ctx = text[s:m.end() + 24].replace("\n", " ")
+        ctx = text[s : m.end() + 24].replace("\n", " ")
         # 1) not a confirmed anchor (or un-normalisable) -> invented price
         if canon is None or canon not in ALLOWED:
             found.append((raw.replace(" ", ""), ctx))
@@ -141,9 +159,9 @@ def offenders(text: str):
         if " vs " in span or "vs." in span or "comparison" in span or "compared" in span:
             continue
         canon = _norm(m.group(1).strip().rstrip(".,"))
-        if canon in ALLOWED:   # only if it would otherwise pass
+        if canon in ALLOWED:  # only if it would otherwise pass
             s = max(0, m.start() - 8)
-            ctx = text[s:m.end() + 8].replace("\n", " ")
+            ctx = text[s : m.end() + 8].replace("\n", " ")
             found.append((m.group(1).replace(" ", "") + " (competitor-context)", ctx))
     return found
 
@@ -167,6 +185,20 @@ def gate(text: str, label="content") -> int:
 _BLIND = object()
 
 
+def _net_added(added_lines, deleted_lines):
+    """Full-line multiset difference: lines ADDED more times than they were DELETED.
+    A verbatim relocation (added line == deleted line) cancels to nothing; a genuinely
+    new line survives. Order of the surviving added lines is preserved. Pure + unit-testable."""
+    remaining = Counter(added_lines) - Counter(deleted_lines)  # counts where added > deleted
+    out = []
+    budget = dict(remaining)
+    for ln in added_lines:
+        if budget.get(ln, 0) > 0:
+            out.append(ln)
+            budget[ln] -= 1
+    return "\n".join(out)
+
+
 def staged_added_blog_text():
     """Return ONLY the lines a staged commit ADDS under src/app/blog/**, or _BLIND if the
     staged state could not be read. Diff-scoped: legacy corpus + unrelated edits are never
@@ -179,24 +211,40 @@ def staged_added_blog_text():
         # makes correctness independent of who calls it and from where.
         root = subprocess.run(
             ["git", "rev-parse", "--show-toplevel"],
-            capture_output=True, text=True, check=True,
+            capture_output=True,
+            text=True,
+            check=True,
         ).stdout.strip()
         if not root:
             raise OSError("git rev-parse returned no repo root")
         out = subprocess.run(
             ["git", "-C", root, "diff", "--cached", "--unified=0", "--", "src/app/blog"],
-            capture_output=True, text=True, check=True,
+            capture_output=True,
+            text=True,
+            check=True,
         ).stdout
     except (subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
-        print(f"UNKNOWN [--cached] — cannot read staged state "
-              f"({e.__class__.__name__}: {e}). Failing CLOSED: blind is never a pass.")
+        print(
+            f"UNKNOWN [--cached] — cannot read staged state "
+            f"({e.__class__.__name__}: {e}). Failing CLOSED: blind is never a pass."
+        )
         return _BLIND
-    added = []
+    added, deleted = [], []
     for ln in out.splitlines():
         # added content lines start with '+' but not the '+++ ' file header
         if ln.startswith("+") and not ln.startswith("+++"):
             added.append(ln[1:])
-    return "\n".join(added)
+        elif ln.startswith("-") and not ln.startswith("---"):
+            deleted.append(ln[1:])
+    # MOVE-AWARE (§788 net-effect, 26/09/2026): a line ADDED that is also DELETED in the
+    # same staged diff is a RELOCATION, not new content — a verbatim move (e.g. extracting
+    # the blog posts object to posts.data.ts) must not re-flag prices that already live in
+    # the deleted source. Full-LINE multiset netting (not bare-token) so a genuinely-new
+    # "R9,999" line is never masked by a deleted line that merely shares a figure. A price
+    # that survives the netting is genuinely new and STILL blocks — the §489 safety property
+    # is preserved. If a truly verbatim move leaves ANY offender, the move is not byte-exact
+    # (stop-and-investigate), which is exactly what we want the gate to say.
+    return _net_added(added, deleted)
 
 
 def gate_cached() -> int:
@@ -215,36 +263,75 @@ def _test() -> int:
     rc = 0
     ok = "Diagnosis from R599. Logic board replacement from R3,500. Liquid clean from R800 to R2,000."
     if gate(ok, "POSITIVE(clean)") != 0:
-        print("  TEST FAIL: clean text rejected"); rc = 1
+        print("  TEST FAIL: clean text rejected")
+        rc = 1
     bad = "Apple charges between R8,500 and R12,000. A sleeve costs R200."
     if gate(bad, "NEGATIVE(invented)") != 1:
-        print("  TEST FAIL: invented prices NOT caught (gate has no power)"); rc = 1
+        print("  TEST FAIL: invented prices NOT caught (gate has no power)")
+        rc = 1
     # --cached power proof: the offenders() engine --cached relies on must catch a
     # real dirty diff-line and pass a real clean one (both directions, real content).
     dirty_line = "+M3 board repair ranges from R3,499 to R6,499 in our workshop."
     if gate(dirty_line[1:], "NEGATIVE(--cached dirty line)") != 1:
-        print("  TEST FAIL: --cached engine missed an invented price in a +line"); rc = 1
+        print("  TEST FAIL: --cached engine missed an invented price in a +line")
+        rc = 1
     clean_line = "+Assessment from R599. Logic board replacement from R3,500."
     if gate(clean_line[1:], "POSITIVE(--cached clean line)") != 0:
-        print("  TEST FAIL: --cached engine rejected an allowlisted +line"); rc = 1
+        print("  TEST FAIL: --cached engine rejected an allowlisted +line")
+        rc = 1
     # Gap 4 — non-R evasion forms must be caught (reworded after correction pressure)
     for ev in ("around 2,800 rand for the board", "about R2.8k", "roughly 3 grand"):
         if not offenders(ev):
-            print(f"  TEST FAIL (Gap4 evasion not caught): {ev!r}"); rc = 1
+            print(f"  TEST FAIL (Gap4 evasion not caught): {ev!r}")
+            rc = 1
     # Gap 2 — allowlisted figure used as a COMPETITOR/new-device price (directional)
-    for cc in ("Apple will quote you R3,500", "buying a new Mac at R5,500", "iStore charges R2,999"):
+    for cc in (
+        "Apple will quote you R3,500",
+        "buying a new Mac at R5,500",
+        "iStore charges R2,999",
+    ):
         if not offenders(cc):
-            print(f"  TEST FAIL (Gap2 competitor-context not caught): {cc!r}"); rc = 1
+            print(f"  TEST FAIL (Gap2 competitor-context not caught): {cc!r}")
+            rc = 1
     # False-positive controls — our OWN pricing + brand-as-object must NOT flag
-    for fp in ("We charge R599 for a diagnostic on any Apple device",
-               "liquid clean from R800 to R2,000 depending on damage",
-               "we have repaired over 15,000 devices since 2009",
-               "a fraction of Apple's quote, far less than a new Mac"):
+    for fp in (
+        "We charge R599 for a diagnostic on any Apple device",
+        "liquid clean from R800 to R2,000 depending on damage",
+        "we have repaired over 15,000 devices since 2009",
+        "a fraction of Apple's quote, far less than a new Mac",
+    ):
         if offenders(fp):
-            print(f"  TEST FAIL (false positive on clean own-pricing): {fp!r} -> {offenders(fp)}"); rc = 1
+            print(f"  TEST FAIL (false positive on clean own-pricing): {fp!r} -> {offenders(fp)}")
+            rc = 1
     # Gap 1 — ALLOWED must derive from the registry (standing values always present)
     if "R599" not in ALLOWED or "R2,000" not in ALLOWED:
-        print("  TEST FAIL (Gap1): registry-derived ALLOWED missing standing/range values"); rc = 1
+        print("  TEST FAIL (Gap1): registry-derived ALLOWED missing standing/range values")
+        rc = 1
+    # --- MOVE-AWARE controls (§788, 26/09/2026) ------------------------------------------
+    # The safety property that must survive: a genuinely-new unconfirmed price STILL blocks.
+    new_price = "Apple charges R8,500 for this board."
+    move_line = "Our logic board repair from R3,500."  # allowlisted; represents any moved line
+    # (1) verbatim move: the same line added AND deleted -> nets to empty -> no offenders
+    if offenders(_net_added([new_price, move_line], [new_price, move_line])):
+        print("  TEST FAIL (move): verbatim move re-flagged pre-existing content")
+        rc = 1
+    else:
+        print("  PASS move: verbatim relocation nets to empty (no false block)")
+    # (2) genuinely-new price (added, NO matching deletion) -> survives -> STILL blocks
+    if not offenders(_net_added([new_price, move_line], [move_line])):
+        print("  TEST FAIL (move-safety): a NEW unconfirmed price was masked by netting")
+        rc = 1
+    else:
+        print("  PASS move-safety: genuinely-new unconfirmed price still blocks")
+    # (3) partial: price added twice, deleted once -> one survives -> blocks
+    if not offenders(_net_added([new_price, new_price], [new_price])):
+        print("  TEST FAIL (move-partial): net surplus new price not caught")
+        rc = 1
+    # (4) token-masking guard: a NEW figure must not be cancelled by a DIFFERENT deleted line
+    if not offenders(_net_added(["Apple quote R9,999 today."], ["Apple quote R8,888 today."])):
+        print("  TEST FAIL (move-token): full-line netting leaked a new figure via a shared token")
+        rc = 1
+
     # --- D12 ABSENCE CONTROL (19/07/2026) -------------------------------------------------
     # If the staged state cannot be read, --cached must FAIL CLOSED and never print PASS.
     # Simulated exactly as a real hook failure would look: git unavailable (broken PATH /
@@ -260,16 +347,24 @@ def _test() -> int:
     finally:
         subprocess.run = _real_run
     if rc_blind == 0:
-        print("  TEST FAIL (absence): --cached PASSED while blind — the D12 bug is back"); rc = 1
+        print("  TEST FAIL (absence): --cached PASSED while blind — the D12 bug is back")
+        rc = 1
     else:
-        print(f"  PASS absence: --cached fails CLOSED when staged state is unreadable (rc={rc_blind})")
+        print(
+            f"  PASS absence: --cached fails CLOSED when staged state is unreadable (rc={rc_blind})"
+        )
 
     # PRODUCTION-VISIBILITY control (§722): against the REAL repo the git path must actually
     # work. A tool whose --test is green but which returns _BLIND in production is an empty shell.
     if staged_added_blog_text() is _BLIND:
-        print("  TEST FAIL: cannot read staged state in the REAL repo — gate is blind in production"); rc = 1
+        print(
+            "  TEST FAIL: cannot read staged state in the REAL repo — gate is blind in production"
+        )
+        rc = 1
     else:
-        print("  PASS production-visibility: real `git diff --cached` is readable (not an empty shell)")
+        print(
+            "  PASS production-visibility: real `git diff --cached` is readable (not an empty shell)"
+        )
 
     print("RESULT:", "ALL PASS" if rc == 0 else "FAILURES")
     # Exit >=2 on real failure: a daily runner maps rc=1 to an UNCOUNTED WARN, only rc>=2 to FAIL.
@@ -286,4 +381,5 @@ if __name__ == "__main__":
         sys.exit(gate(open(a[1]).read(), a[1]))
     if a[0] == "--cached":
         sys.exit(gate_cached())
-    print(__doc__); sys.exit(2)
+    print(__doc__)
+    sys.exit(2)

@@ -98,7 +98,6 @@ export function SiteSchema() {
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'JAMF MDM Implementation' } },
       ],
     },
-    legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   }
 
   return (

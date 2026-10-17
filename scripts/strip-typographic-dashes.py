@@ -13,7 +13,7 @@ gate or get rewritten.
   --apply      rewrite live files in place (idempotent).
   --test       self-test the file-selection + scan/apply round-trip on a fixture.
 """
-import os
+
 import re
 import sys
 import pathlib
@@ -51,7 +51,7 @@ def scan():
     if offenders:
         print(f"❌ §547 GATE FAIL — {len(offenders)} live file(s) contain typographic dashes:")
         for p, em, en in sorted(offenders, key=lambda x: -(x[1] + x[2]))[:40]:
-            print(f"    {em+en:>5}  ({em} em / {en} en)  {p.relative_to(ROOT)}")
+            print(f"    {em + en:>5}  ({em} em / {en} en)  {p.relative_to(ROOT)}")
         total_em = sum(o[1] for o in offenders)
         total_en = sum(o[2] for o in offenders)
         print(f"  TOTAL: {total_em} em-dash + {total_en} en-dash across {len(offenders)} files")
@@ -76,15 +76,19 @@ def run(apply: bool):
             changed += 1
             if apply:
                 p.write_text(new, encoding="utf-8")
-            print(f"  {'fixed' if apply else 'would fix'}: {p.relative_to(ROOT)}  (-{em} em / -{en} en)")
+            print(
+                f"  {'fixed' if apply else 'would fix'}: {p.relative_to(ROOT)}  (-{em} em / -{en} en)"
+            )
     verb = "fixed" if apply else "would change"
-    print(f"\n{'✅ APPLIED' if apply else '🔍 DRY-RUN'}: {verb} {changed} file(s) | "
-          f"{tot_em} em-dash + {tot_en} en-dash removed")
+    print(
+        f"\n{'✅ APPLIED' if apply else '🔍 DRY-RUN'}: {verb} {changed} file(s) | "
+        f"{tot_em} em-dash + {tot_en} en-dash removed"
+    )
     return 0
 
 
 def _test():
-    import tempfile
+
     checks = []
     # exclusion: a .pre-* file must NOT be selected
     fx = SRC / "__dash_fixture__.tsx"
@@ -107,7 +111,9 @@ def _test():
     ok = all(p for _, p in checks)
     for n, p in checks:
         print(f"  {'✅' if p else '❌'} {n}")
-    print(f"{'✅ PASS' if ok else '❌ FAIL'}: strip-typographic-dashes §547 ({sum(p for _,p in checks)}/{len(checks)})")
+    print(
+        f"{'✅ PASS' if ok else '❌ FAIL'}: strip-typographic-dashes §547 ({sum(p for _, p in checks)}/{len(checks)})"
+    )
     return 0 if ok else 1
 
 

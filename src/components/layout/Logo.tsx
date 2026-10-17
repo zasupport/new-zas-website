@@ -8,7 +8,7 @@ type LogoVariant = 'apple' | 'it' | 'medical';
 
 const MEDICAL_PREFIXES = ['/apple-support/medical', '/medical'];
 const IT_PREFIXES = ['/managed-services', '/jamf', '/enterprise', '/apple-support/business', '/apple-support/sme', '/network', '/cyber'];
-const APPLE_PREFIXES = ['/macbook', '/logic-board', '/liquid-damage', '/iphone', '/ipad', '/apple-watch', '/airpods', '/accessories'];
+const APPLE_PREFIXES = ['/macbook', '/logic-board', '/liquid-damage', '/iphone', '/ipad', '/apple-watch', '/accessories'];
 const APPLE_EXACT = ['/', '/apple-repair', '/services', '/book', '/blog', '/contact'];
 
 function getVariant(pathname: string): LogoVariant {

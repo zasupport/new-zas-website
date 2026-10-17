@@ -18,7 +18,12 @@ Modes:
   --test     §244/§584/§704 controls: page without noindex MUST fail; with noindex MUST pass;
              missing file MUST fail-closed
 """
-import os, re, sys, tempfile, shutil
+
+import os
+import re
+import sys
+import tempfile
+import shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -41,7 +46,9 @@ def check(pages):
             errs.append(f"{route}: page.tsx MISSING at {path} (fail-closed)")
             continue
         if not has_noindex(open(path, encoding="utf-8").read()):
-            errs.append(f"{route}: no `robots: {{ index: false }}` — internal page would be indexable")
+            errs.append(
+                f"{route}: no `robots: {{ index: false }}` — internal page would be indexable"
+            )
     return (len(errs) == 0), errs
 
 
@@ -52,7 +59,10 @@ def scan():
         print("FAIL: internal-page noindex lock violated:", file=sys.stderr)
         for e in errs:
             print(f"  - {e}", file=sys.stderr)
-        print("Fix: add `robots: { index: false, follow: true }` to the page's metadata.", file=sys.stderr)
+        print(
+            "Fix: add `robots: { index: false, follow: true }` to the page's metadata.",
+            file=sys.stderr,
+        )
         return 1
     print(f"OK: {len(pages)} internal page(s) noindexed ({', '.join(sorted(INTERNAL_PAGES))})")
     return 0
@@ -68,7 +78,9 @@ def test():
 
     # POSITIVE: page with noindex -> pass
     ok, _ = check({"/good": good})
-    print("  PASS positive: noindex page accepted" if ok else "  FAIL positive: noindex page rejected")
+    print(
+        "  PASS positive: noindex page accepted" if ok else "  FAIL positive: noindex page rejected"
+    )
     rc |= 0 if ok else 1
 
     # NEGATIVE control: page WITHOUT noindex -> MUST fail
@@ -76,14 +88,16 @@ def test():
     if not ok:
         print(f"  PASS neg-control: missing noindex CAUGHT -> {errs}")
     else:
-        print("  FAIL neg-control: missing noindex NOT caught (gate has zero power)"); rc = 1
+        print("  FAIL neg-control: missing noindex NOT caught (gate has zero power)")
+        rc = 1
 
     # §704 ABSENCE control: missing file -> fail-closed
     ok, _ = check({"/gone": os.path.join(td, "does-not-exist.tsx")})
     if not ok:
         print("  PASS absence-control: missing page.tsx -> fail-closed")
     else:
-        print("  FAIL absence-control: missing file did NOT fail-closed"); rc = 1
+        print("  FAIL absence-control: missing file did NOT fail-closed")
+        rc = 1
 
     shutil.rmtree(td)
     print("TEST: ALL PASS" if rc == 0 else "TEST: FAIL")

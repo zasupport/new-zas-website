@@ -10,7 +10,7 @@
 //
 // Usage: node seo/scripts/build-search-index.mjs
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, renameSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -165,7 +165,12 @@ function main() {
 	};
 
 	const outFile = join(repoRoot, "public", "search-index.json");
-	writeFileSync(outFile, JSON.stringify(index));
+	// Atomic replace: write a per-process temp file, then rename over the target. A reader
+	// (the build, or a test file running in parallel under `node --test`) sees the old index
+	// or the new one, never a truncated file ("Unexpected end of JSON input").
+	const tmpFile = `${outFile}.${process.pid}.tmp`;
+	writeFileSync(tmpFile, JSON.stringify(index));
+	renameSync(tmpFile, outFile);
 	process.stdout.write(
 		`Wrote public/search-index.json — ${entries.length} entries (curated priority: ${Object.keys(CURATED).length})\n`,
 	);

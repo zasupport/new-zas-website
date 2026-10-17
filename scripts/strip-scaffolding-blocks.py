@@ -7,88 +7,87 @@ import pathlib
 import re
 import sys
 
-FILE = pathlib.Path('src/app/blog/[slug]/page.tsx')
+FILE = pathlib.Path("src/app/blog/[slug]/page.tsx")
 
-CONTENT_END = r'(?=`,\s*\n\s*\},)'
+CONTENT_END = r"(?=`,\s*\n\s*\},)"
 
 FAQ_SCHEMA_RE = re.compile(
-    r'\n+(?:---\s*\n+)?## FAQ Schema \(JSON-LD\)\s*\n+\\`\\`\\`json\n[\s\S]*?\\`\\`\\`'
+    r"\n+(?:---\s*\n+)?## FAQ Schema \(JSON-LD\)\s*\n+\\`\\`\\`json\n[\s\S]*?\\`\\`\\`"
     + CONTENT_END
 )
 
 SCAFFOLDING_RE = re.compile(
-    r'\n+(?:---\s*\n+)?'
-    r'(?:'
-        r'\#{2,4}\s+LEARNING\s+BLOCK[^\n]*'
-        r'|\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHAT\s+BETTER|WHY|WHY\s+SUCCESS|REPLICATE)\s*:'
-        r'|\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHAT\s+BETTER|WHY|WHY\s+SUCCESS|REPLICATE)\s*:\*\*'
-        r'|(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]'
-    r')'
-    r'[\s\S]*?'
-    + CONTENT_END,
+    r"\n+(?:---\s*\n+)?"
+    r"(?:"
+    r"\#{2,4}\s+LEARNING\s+BLOCK[^\n]*"
+    r"|\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHAT\s+BETTER|WHY|WHY\s+SUCCESS|REPLICATE)\s*:"
+    r"|\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHAT\s+BETTER|WHY|WHY\s+SUCCESS|REPLICATE)\s*:\*\*"
+    r"|(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]"
+    r")"
+    r"[\s\S]*?" + CONTENT_END,
     re.IGNORECASE,
 )
 
 MARKER_COUNT_RE = re.compile(
-    r'\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:\*\*'
-    r'|^\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:'
-    r'|^\#{2,4}\s+LEARNING\s+BLOCK'
-    r'|^## FAQ Schema \(JSON-LD\)'
-    r'|^(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]',
+    r"\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:\*\*"
+    r"|^\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:"
+    r"|^\#{2,4}\s+LEARNING\s+BLOCK"
+    r"|^## FAQ Schema \(JSON-LD\)"
+    r"|^(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]",
     re.MULTILINE | re.IGNORECASE,
 )
 
 
 def summarise(label: str, src: str) -> int:
     hits = len(MARKER_COUNT_RE.findall(src))
-    print(f'{label}: {hits} marker lines')
+    print(f"{label}: {hits} marker lines")
     return hits
 
 
 def line_of(src: str, offset: int) -> int:
-    return src.count('\n', 0, offset) + 1
+    return src.count("\n", 0, offset) + 1
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument('--apply', action='store_true', help='Write changes to disk')
+    parser.add_argument("--apply", action="store_true", help="Write changes to disk")
     args = parser.parse_args()
 
     src = FILE.read_text()
-    before = summarise('BEFORE', src)
+    before = summarise("BEFORE", src)
 
     faq_hits = list(FAQ_SCHEMA_RE.finditer(src))
-    print(f'FAQ Schema code-fence dumps: {len(faq_hits)}')
+    print(f"FAQ Schema code-fence dumps: {len(faq_hits)}")
     for m in faq_hits:
-        print(f'  - line {line_of(src, m.start())}..{line_of(src, m.end())}')
+        print(f"  - line {line_of(src, m.start())}..{line_of(src, m.end())}")
 
-    new_src = FAQ_SCHEMA_RE.sub('', src)
+    new_src = FAQ_SCHEMA_RE.sub("", src)
 
     scaffold_hits = list(SCAFFOLDING_RE.finditer(new_src))
-    print(f'Trailing scaffolding blocks: {len(scaffold_hits)}')
+    print(f"Trailing scaffolding blocks: {len(scaffold_hits)}")
     for m in scaffold_hits[:5]:
-        print(f'  - line {line_of(new_src, m.start())}..{line_of(new_src, m.end())}')
+        print(f"  - line {line_of(new_src, m.start())}..{line_of(new_src, m.end())}")
     if len(scaffold_hits) > 5:
-        print(f'  ... +{len(scaffold_hits) - 5} more')
+        print(f"  ... +{len(scaffold_hits) - 5} more")
 
-    new_src = SCAFFOLDING_RE.sub('', new_src)
+    new_src = SCAFFOLDING_RE.sub("", new_src)
 
-    after = summarise('AFTER ', new_src)
+    after = summarise("AFTER ", new_src)
     delta = before - after
-    print(f'Marker lines removed: {delta}')
+    print(f"Marker lines removed: {delta}")
 
     if not args.apply:
-        print('DRY RUN — no changes written. Re-run with --apply to persist.')
+        print("DRY RUN — no changes written. Re-run with --apply to persist.")
         return 0
 
     if new_src == src:
-        print('No changes needed.')
+        print("No changes needed.")
         return 0
 
     FILE.write_text(new_src)
-    print(f'Wrote {FILE} ({len(src)} -> {len(new_src)} bytes)')
+    print(f"Wrote {FILE} ({len(src)} -> {len(new_src)} bytes)")
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())

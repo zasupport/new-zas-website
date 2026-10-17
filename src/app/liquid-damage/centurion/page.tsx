@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'How much does MacBook liquid damage repair cost for Centurion clients?',
-    answer: 'Assessment. Repair cost depends on the extent of damage confirmed during the ultrasonic cleaning and diagnostic process. Written quote provided before any repair proceeds. No Fix No Fee applies.',
+    answer: 'Assessment. Repair cost depends on the extent of damage confirmed during the ultrasonic cleaning and diagnostic process. Written quote provided before any repair proceeds. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'How long does liquid damage repair take?',
@@ -108,7 +108,7 @@ export default function LiquidDamageCenturionPage() {
               <span className="text-amber-400 font-medium">Act immediately, every hour increases corrosion spread.</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Collection', 'Ultrasonic Cleaning', 'No Fix No Fee', 'Assessment'].map((l) => (
+              {['Same-Day Collection', 'Ultrasonic Cleaning', 'Fixed Quote First', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>

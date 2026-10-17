@@ -28,12 +28,12 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Apple Mac Repair, Johannesburg | ZA Support',
   description:
-    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. up-to-3 year warranty. 4.9★ 632+ reviews. Assessment. Hyde Park. Call 064 529 5863.",
+    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. 12-month warranty. 4.9★ 632+ reviews. Assessment. Hyde Park. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com/apple-repair' },
   openGraph: {
     title: 'Apple Mac Repair Johannesburg | ZA Support',
     description:
-      'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery, screen, keyboard, liquid damage. Assessment. up-to-3 year warranty.',
+      'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery, screen, keyboard, liquid damage. Assessment. 12-month warranty.',
     url: 'https://zasupport.com/apple-repair',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -54,7 +54,7 @@ const serviceCards = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, up-to-3 year warranty.',
+    description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, 12-month warranty.',
     href: '/macbook-repair/battery',
     tag: null,
     accent: 'text-green-400',
@@ -144,8 +144,8 @@ const processSteps = [
   },
   {
     step: '04',
-    title: 'Tested + Up-to-3 Year Warranty',
-    body: 'Your device is fully tested before collection. Every repair includes a written up-to-3 year warranty covering parts and workmanship. Extended warranty available on request.',
+    title: 'Tested + 12-Month Warranty',
+    body: 'Your device is fully tested before collection. Every repair includes a written 12-month warranty covering parts and workmanship. Extended warranty available on request.',
   },
 ];
 
@@ -161,7 +161,7 @@ const faqs = [
   {
     question: 'What is your assessment fee policy?',
     answer:
-      'An assessment fee applies to all device diagnostics. If you proceed with the repair, this fee applies. If you choose not to proceed after the assessment, the assessment fee is payable. All repairs carry a up-to-3 year warranty on parts and labour.',
+      'An assessment fee applies to all device diagnostics. If you proceed with the repair, this fee applies. If you choose not to proceed after the assessment, the assessment fee is payable. All repairs carry a 12-month warranty on parts and labour.',
   },
   {
     question: 'Do you repair both old and new Apple devices?',
@@ -171,7 +171,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on repairs?',
     answer:
-      'Yes, every repair includes a written up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, we repair it at our assessment fee. Extended warranty is available on request. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
+      'Yes, every repair includes a written 12-month warranty on parts and labour. If the same fault returns within the warranty period, we repair it at our assessment fee. Extended warranty is available on request. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
   },
   {
     question: 'How long does repair take?',
@@ -191,7 +191,7 @@ const faqs = [
   {
     question: 'Is component-level repair more cost-effective than a board replacement?',
     answer:
-      'Yes, significantly. Authorised service typically performs full logic board replacements, we repair the specific component that failed, which is considerably more affordable. Plus we offer transparent assessment pricing and a up-to-3 year warranty on all repairs.',
+      'Yes, significantly. Authorised service typically performs full logic board replacements, we repair the specific component that failed, which is considerably more affordable. Plus we offer transparent assessment pricing and a 12-month warranty on all repairs.',
   },
   {
     question: 'Do you repair M1, M2, M3 and M4 MacBooks?',
@@ -282,7 +282,7 @@ export default function AppleRepairPage() {
               {[
                 { value: SITE.repairsCount, label: 'Repairs Completed' },
                 { value: '16 Years', label: 'Experience Since 2009' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
                 { value: 'Contact for pricing', label: 'Assessment Fee' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
@@ -305,8 +305,8 @@ export default function AppleRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
-              { icon: Shield, label: 'Up-to-3 Year Warranty' },
-              { icon: BadgeCheck, label: 'Up-to-3 Year Warranty' },
+              { icon: Shield, label: '12-Month Warranty' },
+              { icon: BadgeCheck, label: '12-Month Warranty' },
               { icon: Clock, label: 'Fastest Turnaround Times' },
               { icon: CheckCircle, label: 'Assessment' },
               { icon: Phone, label: '064 529 5863' },
@@ -335,7 +335,7 @@ export default function AppleRepairPage() {
             </div>
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
-              <p className="text-[#E8F4F1] text-sm font-semibold">up-to-3 year warranty on every repair. Extended warranty available.</p>
+              <p className="text-[#E8F4F1] text-sm font-semibold">12-month warranty on every repair. Extended warranty available.</p>
               <p className="text-[#7A9E98] text-xs mt-0.5">Transparent pricing. Written quote before any work begins.</p>
             </div>
           </div>
@@ -351,7 +351,7 @@ export default function AppleRepairPage() {
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
             We repair every Apple device, every fault type, at component level where possible.
-            All services include a transparent assessment, written quote, and a up-to-3 year warranty.
+            All services include a transparent assessment, written quote, and a 12-month warranty.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {serviceCards.map((service) => (
@@ -375,7 +375,7 @@ export default function AppleRepairPage() {
         </div>
       </section>
 
-      {/* ── NO FIX NO FEE CALLOUT ── */}
+      {/* quote-first assessment banner */}
       <section className="py-12 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[rgba(15,234,122,0.06)] border border-[rgba(15,234,122,0.25)] rounded-2xl p-8 flex flex-col md:flex-row items-center gap-6">
@@ -391,7 +391,7 @@ export default function AppleRepairPage() {
               <p className="text-[#7A9E98] text-sm leading-relaxed">
                 We charge an assessment fee for the diagnosis. If you proceed with the repair, this fee applies.
                 If you choose not to proceed, the assessment fee applies for the diagnostic work completed.
-                Written quote before any work begins. Every repair backed by a up-to-3 year warranty on parts and labour.
+                Written quote before any work begins. Every repair backed by a 12-month warranty on parts and labour.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -437,7 +437,7 @@ export default function AppleRepairPage() {
             Why Choose ZA Support?
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            Specialist Apple technicians working at component level. Honest advice, written quotes, and a up-to-3 year warranty on every repair.
+            Specialist Apple technicians working at component level. Honest advice, written quotes, and a 12-month warranty on every repair.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -453,8 +453,8 @@ export default function AppleRepairPage() {
               },
               {
                 icon: BadgeCheck,
-                title: '3-Month Up-to-3 Year Warranty',
-                body: 'Every repair comes with a written up-to-3 year warranty on parts and labour. If the same issue returns within the warranty period, we fix it at our assessment fee. Extended warranty available on request.',
+                title: '3-Month 12-Month Warranty',
+                body: 'Every repair comes with a written 12-month warranty on parts and labour. If the same issue returns within the warranty period, we fix it at our assessment fee. Extended warranty available on request.',
               },
               {
                 icon: Clock,
@@ -539,7 +539,7 @@ export default function AppleRepairPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Apple Device Damaged? Book an Assessment.
             </h2>
-            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty on all repairs. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">12-month warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               An assessment fee applies. You will know exactly what is wrong and what it will cost before any work begins.
             </p>

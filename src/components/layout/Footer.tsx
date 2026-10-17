@@ -10,7 +10,6 @@ const serviceLinks = [
   { label: 'iPhone Repair', href: '/iphone-repair' },
   { label: 'iPad Repair', href: '/ipad-repair' },
   { label: 'Mac mini Repair', href: '/mac-mini-repair' },
-  { label: 'AirPods Repair', href: '/airpods-repair' },
   { label: 'Accessories Repair', href: '/accessories-repair' },
   { label: 'Apple Repair Hub', href: '/apple-repair' },
   { label: 'For Business', href: '/business' },
@@ -188,7 +187,7 @@ export default function Footer() {
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
               <span>© {currentYear} ZA Support. All rights reserved.</span>
               <span>|</span>
-              <span>Vizibiliti Intelligent Solutions (Pty) Ltd</span>
+              <span>Further business or legal information is available for review upon request.</span>
               <span>|</span>
               <span>VAT Registered</span>
             </div>

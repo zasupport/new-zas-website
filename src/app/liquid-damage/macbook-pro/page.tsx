@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Pro Liquid Damage Repair',
   description:
-    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment, up-to-3 year warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment, 12-month warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },
   keywords: [
     'MacBook Pro liquid damage repair Johannesburg',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at our assessment fee. Our Assessment policy also applies: if we cannot repair your machine, an assessment fee applies and the machine is returned exactly as received.',
+      'All ZA Support liquid damage repairs carry a 12-month warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at our assessment fee. Our Assessment policy also applies: if we cannot repair your machine, an assessment fee applies and the machine is returned exactly as received.',
   },
 ];
 
@@ -189,7 +189,7 @@ const repairProcess = [
   {
     step: '6',
     title: 'Collection or Delivery',
-    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a up-to-3 year warranty certificate with every repaired machine.',
+    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a 12-month warranty certificate with every repaired machine.',
   },
 ];
 
@@ -198,7 +198,7 @@ const repairProcess = [
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, Assessment, up-to-3 year warranty. All Intel and Apple Silicon models.',
+  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, Assessment, 12-month warranty. All Intel and Apple Silicon models.',
   lowPrice: '5500',
   highPrice: '22000',
 });
@@ -228,7 +228,7 @@ export default function MacBookProLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. All Intel and Apple Silicon models.
-              Assessment. written up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment. written 12-month warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Every hour matters after a liquid spill. Corrosion starts within minutes of contact, 
@@ -279,7 +279,7 @@ export default function MacBookProLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty, No Exceptions' },
+                { value: 'Covered', label: '12-Month Warranty, No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -451,7 +451,7 @@ export default function MacBookProLiquidDamagePage() {
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               All prices are confirmed before any work begins. Our Assessment policy applies to every case, 
               if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned exactly
-              as received. up-to-3 year warranty on all repairs.
+              as received. 12-month warranty on all repairs.
             </p>
           </div>
         </div>
@@ -639,7 +639,7 @@ export default function MacBookProLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              Assessment. written up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment. written 12-month warranty. Hyde Park, Johannesburg.
             </p>
           </div>
         </div>

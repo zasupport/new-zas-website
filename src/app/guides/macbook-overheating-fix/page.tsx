@@ -50,7 +50,7 @@ const faqs = [
   {
     question: 'How much does MacBook thermal repair cost at ZA Support?',
     answer:
-      'Assessment applies with our No Fix No Fee guarantee. Fan replacement pricing depends on the model. Thermal paste replacement and logic board thermal sensor repair are quoted after assessment. We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196.',
+      'Every repair is quoted in writing after assessment, and you approve the quote before any work begins. Fan replacement pricing depends on the model. Thermal paste replacement and logic board thermal sensor repair are quoted after assessment. We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196.',
   },
   {
     question: 'Can load shedding cause MacBook overheating?',
@@ -70,7 +70,7 @@ const faqs = [
   {
     question: 'Does ZA Support collect MacBooks for thermal repair?',
     answer:
-      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. Assessment with No Fix No Fee.',
+      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
 ];
 
@@ -105,7 +105,7 @@ const howToSteps = [
   },
   {
     name: 'Seek professional thermal service',
-    text: 'If you have tried the above steps and your MacBook still overheats, book an assessment at ZA Support. We use thermal imaging cameras to identify hot spots on the logic board, measure fan RPM with tachometer readings, and test thermal paste conductivity. Assessment with No Fix No Fee guarantee. We are at 1 Hyde Park Lane, Hyde Park, Johannesburg. WhatsApp 064 529 5863 for same-day collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.',
+    text: 'If you have tried the above steps and your MacBook still overheats, book an assessment at ZA Support. We use thermal imaging cameras to identify hot spots on the logic board, measure fan RPM with tachometer readings, and test thermal paste conductivity. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. We are at 1 Hyde Park Lane, Hyde Park, Johannesburg. WhatsApp 064 529 5863 for same-day collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.',
   },
 ];
 
@@ -182,7 +182,7 @@ export default function MacBookOverheatingFixPage() {
               </span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['No Fix No Fee', '12-Month Warranty', 'Assessment', 'Same-Day Collection'].map((l) => (
+              {['Fixed Quote First', '12-Month Warranty', 'Assessment', 'Same-Day Collection'].map((l) => (
                 <div
                   key={l}
                   className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full"
@@ -511,7 +511,7 @@ export default function MacBookOverheatingFixPage() {
             </h2>
             <p className="text-[#7A9E98] mb-6">
               Professional thermal diagnosis with thermal imaging cameras. Assessment.
-              No Fix No Fee. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand,
+              Fixed written quotes. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand,
               and Randburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

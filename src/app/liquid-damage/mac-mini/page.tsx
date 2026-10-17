@@ -152,7 +152,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'Mac Mini Liquid Damage Repair Johannesburg',
   description:
-    'Professional Mac Mini liquid damage repair in Johannesburg. M1, M2, M2 Pro, and M4 models. Internal PSU corrosion, port controller replacement, NAND recovery. Assessment. Up-to-3 year warranty.',
+    'Professional Mac Mini liquid damage repair in Johannesburg. M1, M2, M2 Pro, and M4 models. Internal PSU corrosion, port controller replacement, NAND recovery. Assessment. 12-month warranty.',
   lowPrice: '4500',
   highPrice: '15750',
 });
@@ -188,7 +188,7 @@ export default function MacMiniLiquidDamagePage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M2 Pro / M4' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -224,7 +224,7 @@ export default function MacMiniLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -324,7 +324,7 @@ export default function MacMiniLiquidDamagePage() {
                 <li>PSU board and logic board assessed together</li>
                 <li>Data preserved on the same logic board</li>
                 <li>M4 3nm precision diagnostics available</li>
-                <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
+                <li>Turnaround 24-72 hours, 12-month warranty</li>
               </ul>
             </div>
           </div>
@@ -464,7 +464,7 @@ export default function MacMiniLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

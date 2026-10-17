@@ -22,7 +22,6 @@ Wire it in two places:
 
 import argparse
 import json
-import subprocess
 import sys
 from pathlib import Path
 
@@ -69,6 +68,7 @@ def robots_from_next_source(path: Path) -> str:
     extracting the disallow entries. Used pre-deploy, when no live URL exists yet.
     """
     import re
+
     text = path.read_text(encoding="utf-8")
     disallows = []
     for m in re.finditer(r"disallow\s*:\s*(\[[^\]]*\]|['\"][^'\"]+['\"])", text, re.I | re.S):
@@ -114,8 +114,10 @@ def main():
         print("=" * 72, file=sys.stderr)
         print("ROBOTS GUARD BLOCKED: protection baseline is missing.", file=sys.stderr)
         print(f"  expected: {prot_path}", file=sys.stderr)
-        print("  The guard fails closed rather than pass every commit unprotected.", file=sys.stderr)
-        print("  Generate it: python3 \"robots index engine.py\" bootstrap", file=sys.stderr)
+        print(
+            "  The guard fails closed rather than pass every commit unprotected.", file=sys.stderr
+        )
+        print('  Generate it: python3 "robots index engine.py" bootstrap', file=sys.stderr)
         print("=" * 72, file=sys.stderr)
         sys.exit(1)
     try:
@@ -123,12 +125,12 @@ def main():
         urls = doc["urls"]
     except Exception as exc:
         print(f"ROBOTS GUARD BLOCKED: baseline unparseable ({exc}).", file=sys.stderr)
-        print("  Regenerate it: python3 \"robots index engine.py\" bootstrap", file=sys.stderr)
+        print('  Regenerate it: python3 "robots index engine.py" bootstrap', file=sys.stderr)
         sys.exit(1)
     if not urls:
         print("ROBOTS GUARD BLOCKED: baseline exists but is empty.", file=sys.stderr)
         print("  An empty baseline protects nothing. Regenerate it:", file=sys.stderr)
-        print("  python3 \"robots index engine.py\" bootstrap", file=sys.stderr)
+        print('  python3 "robots index engine.py" bootstrap', file=sys.stderr)
         sys.exit(1)
 
     robots_txt = load_robots(args)

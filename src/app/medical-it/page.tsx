@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title:
     'Medical Practice IT Management Johannesburg | Apple MDM for Doctors | ZA Support',
   description:
-    'Medical practice IT management in Johannesburg. HPCSA-compliant Apple device management, POPIA patient data security, MDM for doctors. Assessment. BEE Level 1. Call 064 529 5863.',
+    'Medical practice IT management in Johannesburg. HPCSA-compliant Apple device management, POPIA patient data security, MDM for doctors. Assessment. B-BBEE Level 4. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/medical-it' },
   keywords: [
     'medical practice IT management johannesburg',
@@ -80,7 +80,7 @@ const faqs = [
     question:
       'Do you support large medical groups like those at Mediclinic or Netcare facilities?',
     answer:
-      'We support practices of all sizes, from solo practitioners through to multi-doctor groups operating within Mediclinic, Netcare, and Life Healthcare facilities. For larger practices, we provide fleet-wide MDM management, centralised security policy enforcement, quarterly on-site health reviews, and a dedicated WhatsApp line to a named technician. Our BEE Level 1 certification also supports procurement compliance requirements for practices operating within hospital group frameworks.',
+      'We support practices of all sizes, from solo practitioners through to multi-doctor groups operating within Mediclinic, Netcare, and Life Healthcare facilities. For larger practices, we provide fleet-wide MDM management, centralised security policy enforcement, quarterly on-site health reviews, and a dedicated WhatsApp line to a named technician. Our B-BBEE Level 4 certification also supports procurement compliance requirements for practices operating within hospital group frameworks.',
   },
   {
     question:
@@ -245,7 +245,7 @@ const serviceSchema = {
     { '@type': 'AdministrativeArea', name: 'Gauteng' },
   ],
   description:
-    'Specialist Apple IT management for medical practices in Johannesburg. HPCSA-compliant systems, POPIA patient data security, Apple MDM, practice management software support, iPad kiosk setup. BEE Level 1.',
+    'Specialist Apple IT management for medical practices in Johannesburg. HPCSA-compliant systems, POPIA patient data security, Apple MDM, practice management software support, iPad kiosk setup. B-BBEE Level 4.',
   offers: {
     '@type': 'Offer',
     priceCurrency: 'ZAR',
@@ -346,7 +346,7 @@ export default function MedicalITPage() {
                 'POPIA patient data compliance',
                 'HPCSA audit documentation',
                 'iPad check-in kiosks',
-                'BEE Level 1 certified',
+                'B-BBEE Level 4 certified',
                 'Assessment',
               ].map((item) => (
                 <div
@@ -754,7 +754,7 @@ export default function MedicalITPage() {
                   compliance reviews.
                 </p>
                 <p className="text-[#7A9E98] text-sm mb-4">
-                  We are a BEE Level 1 certified provider, supporting
+                  We are a B-BBEE Level 4 certified provider, supporting
                   procurement compliance for practices operating within
                   Mediclinic, Netcare, and Life Healthcare group
                   frameworks.
@@ -850,7 +850,7 @@ export default function MedicalITPage() {
               {
                 icon: Building2,
                 title: 'Medical Groups and Centres',
-                desc: 'Multi-doctor practices within Mediclinic, Netcare, or Life Healthcare facilities. Fleet-wide MDM, centralised security, and BEE Level 1 procurement compliance.',
+                desc: 'Multi-doctor practices within Mediclinic, Netcare, or Life Healthcare facilities. Fleet-wide MDM, centralised security, and B-BBEE Level 4 procurement compliance.',
               },
               {
                 icon: Heart,
@@ -945,7 +945,7 @@ export default function MedicalITPage() {
               Monthly SLA plans available.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              BEE Level 1 &middot; POPIA-compliant &middot;
+              B-BBEE Level 4 &middot; POPIA-compliant &middot;
               HPCSA-documented &middot; {SITE.yearsExperience} years
               Apple expertise &middot; Hyde Park, Johannesburg
             </p>

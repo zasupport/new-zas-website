@@ -74,7 +74,7 @@ export default function iPhoneLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPhone liquid damage repair. All models iPhone 8 through iPhone 16 Pro Max.
-              Assessment, up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment, 12-month warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

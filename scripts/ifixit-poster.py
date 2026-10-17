@@ -101,13 +101,15 @@ def post_ifixit_answer(page, question_url: str, answer: str) -> tuple[bool, str]
         time.sleep(3)
 
         # iFixit answer textarea
-        textarea = page.locator("textarea.answer-body, textarea[placeholder*='answer'], .answer-form textarea").first
+        textarea = page.locator(
+            "textarea.answer-body, textarea[placeholder*='answer'], .answer-form textarea"
+        ).first
         if not textarea.is_visible(timeout=8000):
             return False, "answer textarea not found"
 
         textarea.click()
         time.sleep(1)
-        chunks = [answer[i:i+60] for i in range(0, len(answer), 60)]
+        chunks = [answer[i : i + 60] for i in range(0, len(answer), 60)]
         for chunk in chunks:
             textarea.type(chunk, delay=random.randint(25, 55))
             time.sleep(random.uniform(0.1, 0.2))
@@ -115,7 +117,9 @@ def post_ifixit_answer(page, question_url: str, answer: str) -> tuple[bool, str]
         time.sleep(2)
 
         # Submit button
-        submit = page.locator("button[type='submit']:has-text('Post'), button:has-text('Add Answer'), input[type='submit']").first
+        submit = page.locator(
+            "button[type='submit']:has-text('Post'), button:has-text('Add Answer'), input[type='submit']"
+        ).first
         submit.click()
         time.sleep(5)
 
@@ -160,7 +164,9 @@ def main():
             viewport={"width": 1280, "height": 900},
         )
         page = context.new_page()
-        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
+        page.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
+        )
 
         if not ifixit_login(page):
             browser.close()

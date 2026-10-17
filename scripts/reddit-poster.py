@@ -18,7 +18,7 @@ HOME = Path.home()
 DRAFT_DIR = HOME / "Desktop" / "Claude" / "Reddit"
 LOG_FILE = HOME / ".za-reddit-poster.log"
 MAX_POSTS_PER_NIGHT = 3
-MIN_DELAY = 45   # seconds between posts
+MIN_DELAY = 45  # seconds between posts
 MAX_DELAY = 90
 
 REDDIT_USERNAME = os.environ.get("REDDIT_USERNAME", "DesperateBonus6367")
@@ -101,7 +101,7 @@ def post_reddit_answer(page, post_url: str, answer: str) -> tuple[bool, str]:
         textarea.click()
         time.sleep(1)
         # Type in chunks to appear more human
-        chunks = [answer[i:i+50] for i in range(0, len(answer), 50)]
+        chunks = [answer[i : i + 50] for i in range(0, len(answer), 50)]
         for chunk in chunks:
             textarea.type(chunk, delay=random.randint(20, 60))
             time.sleep(random.uniform(0.1, 0.3))
@@ -171,7 +171,9 @@ def main():
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        log("ERROR: playwright not installed. Run: pip3 install playwright && python3 -m playwright install chromium")
+        log(
+            "ERROR: playwright not installed. Run: pip3 install playwright && python3 -m playwright install chromium"
+        )
         return 1
 
     posted = 0

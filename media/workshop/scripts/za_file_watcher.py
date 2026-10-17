@@ -5,7 +5,12 @@ Detects new .md files in docs/seo/, extracts chat_id, creates deployment markers
 Runs as LaunchAgent — zero manual intervention.
 """
 
-import os, re, time, json, hashlib, requests
+import os
+import re
+import time
+import json
+import hashlib
+import requests
 from pathlib import Path
 from datetime import datetime
 
@@ -15,6 +20,7 @@ PROCESSED_LOG = os.path.join(WATCH_DIR, ".processed-files.json")
 VLOG = os.path.expanduser("~/Developer/new-zas-website/media/workshop/logs/validation.log")
 NOTIFY = "courtney@zasupport.com"
 
+
 def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{ts}] WATCHER: {msg}"
@@ -22,34 +28,40 @@ def log(msg):
     with open(VLOG, "a") as f:
         f.write(line + "\n")
 
+
 def get_processed():
     if os.path.exists(PROCESSED_LOG):
         with open(PROCESSED_LOG) as f:
             return json.load(f)
     return {}
 
+
 def save_processed(data):
     with open(PROCESSED_LOG, "w") as f:
         json.dump(data, f, indent=2)
+
 
 def file_hash(path):
     with open(path, "rb") as f:
         return hashlib.md5(f.read()).hexdigest()
 
+
 def extract_chat_id(filepath):
     """Extract chat_id from YAML header of .md file."""
     with open(filepath) as f:
         content = f.read(2000)
-    match = re.search(r'chat_id:\s*(.+)', content)
+    match = re.search(r"chat_id:\s*(.+)", content)
     if match:
         return match.group(1).strip()
     return None
 
+
 def extract_version(filepath):
     with open(filepath) as f:
         content = f.read(2000)
-    match = re.search(r'version:\s*(.+)', content)
+    match = re.search(r"version:\s*(.+)", content)
     return match.group(1).strip() if match else "unknown"
+
 
 def get_ms_token():
     try:
@@ -65,13 +77,20 @@ def get_ms_token():
         secret = os.environ.get("MS_CLIENT_SECRET", "")
         if not refresh:
             return ""
-        r = requests.post("https://login.microsoftonline.com/common/oauth2/v2.0/token",
-            data={"grant_type": "refresh_token", "client_id": client,
-                  "client_secret": secret, "refresh_token": refresh,
-                  "scope": "https://graph.microsoft.com/Mail.Send"})
+        r = requests.post(
+            "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+            data={
+                "grant_type": "refresh_token",
+                "client_id": client,
+                "client_secret": secret,
+                "refresh_token": refresh,
+                "scope": "https://graph.microsoft.com/Mail.Send",
+            },
+        )
         return r.json().get("access_token", "")
     except Exception:
         return ""
+
 
 def notify(chat_id, files):
     """Email notification that new files detected."""
@@ -96,16 +115,16 @@ Claude Code will automatically link all actions to chat {chat_id}.</p>"""
         "message": {
             "subject": f"New deployment ready — {chat_id} ({len(files)} files)",
             "body": {"contentType": "HTML", "content": html},
-            "toRecipients": [{"emailAddress": {"address": NOTIFY}}]
+            "toRecipients": [{"emailAddress": {"address": NOTIFY}}],
         }
     }
 
-    r = requests.post("https://graph.microsoft.com/v1.0/me/sendMail",
-                      headers=headers, json=payload)
+    r = requests.post("https://graph.microsoft.com/v1.0/me/sendMail", headers=headers, json=payload)
     if r.status_code == 202:
         log(f"Notification sent: {chat_id} ({len(files)} files)")
     else:
         log(f"Notification failed: {r.status_code}")
+
 
 def create_deployment_marker(chat_id, files):
     """Create a pending deployment marker for Claude Code to read."""
@@ -116,13 +135,14 @@ def create_deployment_marker(chat_id, files):
         "files": [{"path": f["path"], "version": f["version"]} for f in files],
         "status": "PENDING",
         "executed_by": None,
-        "executed_at": None
+        "executed_at": None,
     }
     marker_path = os.path.join(PENDING_DIR, f"{chat_id}.json")
     with open(marker_path, "w") as f:
         json.dump(marker, f, indent=2)
     log(f"Deployment marker created: {marker_path}")
     return marker_path
+
 
 def scan():
     """Scan for new or changed .md files."""
@@ -139,12 +159,9 @@ def scan():
         chat_id = extract_chat_id(path)
         version = extract_version(path)
 
-        new_files.append({
-            "path": path,
-            "chat_id": chat_id,
-            "version": version,
-            "hash": current_hash
-        })
+        new_files.append(
+            {"path": path, "chat_id": chat_id, "version": version, "hash": current_hash}
+        )
 
         processed[path] = current_hash
 
@@ -162,6 +179,7 @@ def scan():
     save_processed(processed)
     return new_files
 
+
 def watch():
     """Continuous watch loop."""
     log("File watcher started")
@@ -175,8 +193,10 @@ def watch():
             log(f"Error: {e}")
             time.sleep(30)
 
+
 if __name__ == "__main__":
     import sys
+
     if "--scan" in sys.argv:
         results = scan()
         print(f"Found {len(results)} new files")

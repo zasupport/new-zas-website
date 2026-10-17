@@ -8,19 +8,18 @@ Cost: ~$0.30 total. Run overnight.
 import anthropic
 import json
 import os
-import re
 import time
 from datetime import date
 from pathlib import Path
 
 # Load API key from ~/.za-keys-pending.env if not already in environment
-if not os.environ.get('ANTHROPIC_API_KEY'):
-    env_file = Path.home() / '.za-keys-pending.env'
+if not os.environ.get("ANTHROPIC_API_KEY"):
+    env_file = Path.home() / ".za-keys-pending.env"
     if env_file.exists():
         for line in env_file.read_text().splitlines():
             line = line.strip()
-            if line and not line.startswith('#') and '=' in line:
-                key, _, val = line.partition('=')
+            if line and not line.startswith("#") and "=" in line:
+                key, _, val = line.partition("=")
                 os.environ.setdefault(key.strip(), val.strip())
 
 client = anthropic.Anthropic()
@@ -31,140 +30,220 @@ POSTS = [
         "title": "MacBook Won't Charge? What To Do in Johannesburg",
         "excerpt": "MacBook plugged in but not charging? Here are the most common causes and what to check before spending money on a repair.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook not charging Johannesburg", "MacBook charger not working", "MacBook charging port repair"],
+        "keywords": [
+            "MacBook not charging Johannesburg",
+            "MacBook charger not working",
+            "MacBook charging port repair",
+        ],
     },
     {
         "slug": "macbook-overheating-fix-johannesburg",
         "title": "MacBook Overheating: Causes, Fixes, and When To Get Help",
         "excerpt": "A MacBook that runs hot under normal use is telling you something. Here is how to diagnose overheating and when to bring it in.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook overheating Johannesburg", "MacBook fan running loud", "MacBook thermal paste replacement"],
+        "keywords": [
+            "MacBook overheating Johannesburg",
+            "MacBook fan running loud",
+            "MacBook thermal paste replacement",
+        ],
     },
     {
         "slug": "macbook-keyboard-not-working",
         "title": "MacBook Keyboard Not Working? Common Fixes for Johannesburg Users",
         "excerpt": "Keys sticking, not registering, or entire keyboard unresponsive? Here is what causes MacBook keyboard failures and how they are fixed.",
         "category": "Repairs",
-        "keywords": ["MacBook keyboard repair Johannesburg", "MacBook keys not working", "MacBook butterfly keyboard fix"],
+        "keywords": [
+            "MacBook keyboard repair Johannesburg",
+            "MacBook keys not working",
+            "MacBook butterfly keyboard fix",
+        ],
     },
     {
         "slug": "iphone-screen-repair-cost-johannesburg-2026",
         "title": "iPhone Screen Repair Cost in Johannesburg — 2026 Price Guide",
         "excerpt": "How much does iPhone screen repair cost in Johannesburg in 2026? We break down pricing by model and explain what affects the final price.",
         "category": "Pricing",
-        "keywords": ["iPhone screen repair cost Johannesburg", "iPhone screen replacement price", "cracked iPhone screen repair"],
+        "keywords": [
+            "iPhone screen repair cost Johannesburg",
+            "iPhone screen replacement price",
+            "cracked iPhone screen repair",
+        ],
     },
     {
         "slug": "mac-data-recovery-johannesburg",
         "title": "Mac Data Recovery in Johannesburg — What You Need to Know",
         "excerpt": "Deleted files, failed SSD, or a dead MacBook? Here is how Mac data recovery works and what affects whether your data can be saved.",
         "category": "Data Recovery",
-        "keywords": ["Mac data recovery Johannesburg", "MacBook data recovery", "deleted files Mac recovery"],
+        "keywords": [
+            "Mac data recovery Johannesburg",
+            "MacBook data recovery",
+            "deleted files Mac recovery",
+        ],
     },
     {
         "slug": "macbook-pro-m1-m2-repair-johannesburg",
         "title": "MacBook Pro M1 and M2 Repair in Johannesburg — What You Need to Know",
         "excerpt": "Apple Silicon MacBook Pro repair is different to Intel-era repairs. Here is what to know before bringing your M1 or M2 MacBook Pro in for service.",
         "category": "Repairs",
-        "keywords": ["MacBook Pro M1 repair Johannesburg", "MacBook Pro M2 repair Johannesburg", "Apple Silicon repair"],
+        "keywords": [
+            "MacBook Pro M1 repair Johannesburg",
+            "MacBook Pro M2 repair Johannesburg",
+            "Apple Silicon repair",
+        ],
     },
     {
         "slug": "macbook-trackpad-not-clicking",
         "title": "MacBook Trackpad Not Clicking or Stuck? Here Is Why",
         "excerpt": "MacBook trackpad not responding to clicks, clicking everywhere, or physically stuck? These are the most common causes and fixes.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook trackpad not clicking", "MacBook trackpad stuck", "MacBook trackpad repair Johannesburg"],
+        "keywords": [
+            "MacBook trackpad not clicking",
+            "MacBook trackpad stuck",
+            "MacBook trackpad repair Johannesburg",
+        ],
     },
     {
         "slug": "apple-watch-screen-repair-johannesburg",
         "title": "Apple Watch Screen Repair in Johannesburg — Cost and Options",
         "excerpt": "Cracked Apple Watch screen? Here is what your options are in Johannesburg and what affects the cost of Apple Watch screen repair.",
         "category": "Repairs",
-        "keywords": ["Apple Watch screen repair Johannesburg", "cracked Apple Watch screen", "Apple Watch repair cost"],
+        "keywords": [
+            "Apple Watch screen repair Johannesburg",
+            "cracked Apple Watch screen",
+            "Apple Watch repair cost",
+        ],
     },
     {
         "slug": "ipad-screen-repair-johannesburg-2026",
         "title": "iPad Screen Repair in Johannesburg — 2026 Guide",
         "excerpt": "Cracked iPad screen? Here is what screen repair costs in Johannesburg in 2026, which iPads are most repairable, and what to expect.",
         "category": "Repairs",
-        "keywords": ["iPad screen repair Johannesburg", "cracked iPad screen repair", "iPad Pro screen replacement"],
+        "keywords": [
+            "iPad screen repair Johannesburg",
+            "cracked iPad screen repair",
+            "iPad Pro screen replacement",
+        ],
     },
     {
         "slug": "mac-mini-repair-johannesburg",
         "title": "Mac Mini Repair in Johannesburg — RAM, SSD, and Logic Board",
         "excerpt": "Mac Mini not turning on, running slow, or showing no display? Here is what Mac Mini repairs involve and what can be upgraded.",
         "category": "Repairs",
-        "keywords": ["Mac Mini repair Johannesburg", "Mac Mini not turning on", "Mac Mini RAM upgrade Johannesburg"],
+        "keywords": [
+            "Mac Mini repair Johannesburg",
+            "Mac Mini not turning on",
+            "Mac Mini RAM upgrade Johannesburg",
+        ],
     },
     {
         "slug": "how-to-check-macbook-battery-health",
         "title": "How to Check Your MacBook Battery Health (And What the Numbers Mean)",
         "excerpt": "macOS tells you your battery health — but what do cycle count and condition actually mean? Here is a plain-language guide.",
         "category": "How-To",
-        "keywords": ["MacBook battery health check", "MacBook cycle count", "MacBook battery replacement when"],
+        "keywords": [
+            "MacBook battery health check",
+            "MacBook cycle count",
+            "MacBook battery replacement when",
+        ],
     },
     {
         "slug": "macbook-black-screen-on-startup",
         "title": "MacBook Black Screen on Startup — Causes and Fixes",
         "excerpt": "MacBook powers on but the screen stays black? This guide covers the most common causes from display failures to logic board faults.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook black screen on startup", "MacBook screen not turning on", "MacBook display failure"],
+        "keywords": [
+            "MacBook black screen on startup",
+            "MacBook screen not turning on",
+            "MacBook display failure",
+        ],
     },
     {
         "slug": "liquid-damage-macbook-johannesburg-cost",
         "title": "How Much Does MacBook Liquid Damage Repair Cost in Johannesburg?",
         "excerpt": "Spilled something on your MacBook? Here is an honest guide to liquid damage repair costs in Johannesburg and what factors affect the price.",
         "category": "Pricing",
-        "keywords": ["MacBook liquid damage repair cost Johannesburg", "spilled water MacBook repair price", "MacBook liquid damage assessment"],
+        "keywords": [
+            "MacBook liquid damage repair cost Johannesburg",
+            "spilled water MacBook repair price",
+            "MacBook liquid damage assessment",
+        ],
     },
     {
         "slug": "when-to-replace-vs-repair-macbook",
         "title": "MacBook Repair vs Replace — How to Make the Right Decision",
         "excerpt": "Should you repair your MacBook or buy a new one? Here is a practical framework for making that decision based on repair cost, age, and performance.",
         "category": "Advice",
-        "keywords": ["MacBook repair or replace", "is it worth repairing MacBook", "MacBook repair cost vs new Mac"],
+        "keywords": [
+            "MacBook repair or replace",
+            "is it worth repairing MacBook",
+            "MacBook repair cost vs new Mac",
+        ],
     },
     {
         "slug": "macbook-ssd-upgrade-johannesburg",
         "title": "MacBook SSD Upgrade in Johannesburg — Speed Up Your Mac Without Buying New",
         "excerpt": "An SSD upgrade is the most effective way to speed up an older MacBook. Here is how it works, which models are upgradeable, and what it costs.",
         "category": "Upgrades",
-        "keywords": ["MacBook SSD upgrade Johannesburg", "MacBook storage upgrade", "how to speed up MacBook SSD"],
+        "keywords": [
+            "MacBook SSD upgrade Johannesburg",
+            "MacBook storage upgrade",
+            "how to speed up MacBook SSD",
+        ],
     },
     {
         "slug": "imac-repair-johannesburg",
         "title": "iMac Repair in Johannesburg — Screen, RAM, SSD, and Logic Board",
         "excerpt": "iMac not turning on, slow, or showing a distorted display? Here is what iMac repairs involve and what is worth fixing vs replacing.",
         "category": "Repairs",
-        "keywords": ["iMac repair Johannesburg", "iMac screen repair Johannesburg", "iMac logic board repair"],
+        "keywords": [
+            "iMac repair Johannesburg",
+            "iMac screen repair Johannesburg",
+            "iMac logic board repair",
+        ],
     },
     {
         "slug": "macbook-speaker-not-working",
         "title": "MacBook Speaker Not Working? Here Is What to Check",
         "excerpt": "No sound from your MacBook speakers? Before paying for a repair, here are the software and hardware checks worth running first.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook speaker not working", "MacBook no sound", "MacBook audio repair Johannesburg"],
+        "keywords": [
+            "MacBook speaker not working",
+            "MacBook no sound",
+            "MacBook audio repair Johannesburg",
+        ],
     },
     {
         "slug": "airpods-repair-johannesburg",
         "title": "AirPods Repair in Johannesburg — What Can Actually Be Fixed",
         "excerpt": "AirPods battery dead, one side not working, or sound quality degraded? Here is what AirPods repairs are possible and what it costs in Johannesburg.",
         "category": "Repairs",
-        "keywords": ["AirPods repair Johannesburg", "AirPods battery replacement Johannesburg", "AirPods one side not working"],
+        "keywords": [
+            "AirPods repair Johannesburg",
+            "AirPods battery replacement Johannesburg",
+            "AirPods one side not working",
+        ],
     },
     {
         "slug": "macbook-wifi-keeps-disconnecting",
         "title": "MacBook Wi-Fi Keeps Disconnecting — How to Fix It",
         "excerpt": "MacBook dropping Wi-Fi connection regularly? Here are the common causes from software settings to failed Wi-Fi cards, and how to fix each one.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook WiFi keeps disconnecting", "MacBook WiFi repair Johannesburg", "MacBook wireless card repair"],
+        "keywords": [
+            "MacBook WiFi keeps disconnecting",
+            "MacBook WiFi repair Johannesburg",
+            "MacBook wireless card repair",
+        ],
     },
     {
         "slug": "macbook-logic-board-symptoms-johannesburg",
         "title": "MacBook Logic Board Failure — 8 Warning Signs You Should Not Ignore",
         "excerpt": "Logic board failure is the most serious MacBook fault. These are the warning signs that suggest your MacBook logic board is failing.",
         "category": "Troubleshooting",
-        "keywords": ["MacBook logic board failure symptoms", "MacBook logic board repair Johannesburg", "MacBook not turning on logic board"],
+        "keywords": [
+            "MacBook logic board failure symptoms",
+            "MacBook logic board repair Johannesburg",
+            "MacBook not turning on logic board",
+        ],
     },
 ]
 
@@ -206,14 +285,15 @@ FORMATTING:
 
 LENGTH: 700-950 words of body content (not including title). Longer is better for E-E-A-T."""
 
+
 def generate_post(post_meta: dict) -> str:
     """Generate a single blog post using claude-haiku-4-5."""
     prompt = f"""Write a blog post for ZA Support with the following details:
 
-Title: {post_meta['title']}
-Target keywords: {', '.join(post_meta['keywords'])}
-Excerpt/angle: {post_meta['excerpt']}
-Category: {post_meta['category']}
+Title: {post_meta["title"]}
+Target keywords: {", ".join(post_meta["keywords"])}
+Excerpt/angle: {post_meta["excerpt"]}
+Category: {post_meta["category"]}
 
 Write the full blog post body (not the title — just the content). Start directly with the first paragraph.
 
@@ -246,12 +326,12 @@ def build_ts_entry(meta: dict, content: str) -> str:
     read_time = f"{max(4, len(content.split()) // 200)} min read"
     content_escaped = content.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
 
-    return f"""  '{meta['slug']}': {{
-    slug: '{meta['slug']}',
-    title: `{meta['title']}`,
-    excerpt: `{meta['excerpt']}`,
+    return f"""  '{meta["slug"]}': {{
+    slug: '{meta["slug"]}',
+    title: `{meta["title"]}`,
+    excerpt: `{meta["excerpt"]}`,
     date: '{today}',
-    category: '{meta['category']}',
+    category: '{meta["category"]}',
     readTime: '{read_time}',
     author: 'ZA Support',
     content: `{content_escaped}`,
@@ -269,11 +349,13 @@ def main():
         try:
             content = generate_post(post_meta)
             entry = build_ts_entry(post_meta, content)
-            generated.append({
-                "meta": post_meta,
-                "content": content,
-                "ts_entry": entry,
-            })
+            generated.append(
+                {
+                    "meta": post_meta,
+                    "content": content,
+                    "ts_entry": entry,
+                }
+            )
             print(f"  ✓ {len(content.split())} words")
             # Small delay to avoid rate limits
             if i < len(POSTS):
@@ -302,7 +384,9 @@ def main():
     print(f"Slugs saved to: {slugs_path}")
 
     if len(generated) < len(POSTS):
-        failed = [p["slug"] for p in POSTS if p["slug"] not in [g["meta"]["slug"] for g in generated]]
+        failed = [
+            p["slug"] for p in POSTS if p["slug"] not in [g["meta"]["slug"] for g in generated]
+        ]
         print(f"Failed: {failed}")
 
 

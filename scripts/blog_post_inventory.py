@@ -4,6 +4,7 @@ This is a structural reader, not a TypeScript evaluator. Comments and strings
 are opaque; only direct object keys are counted. Dynamic keys, spreads,
 duplicate keys, missing/empty stores and malformed delimiters fail closed.
 """
+
 import re
 
 
@@ -68,7 +69,7 @@ def tokens(text):
             i = comment(i)
         elif c in "'\"`":
             end = quoted(i)
-            yield ("template" if c == "`" else "string", text[i + 1:end - 1])
+            yield ("template" if c == "`" else "string", text[i + 1 : end - 1])
             i = end
         elif c.isalpha() or c in "_$":
             end = i + 1

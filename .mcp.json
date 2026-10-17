@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "perplexity": {
+      "type": "stdio",
+      "command": "/bin/bash",
+      "args": [
+        "/Users/cb/bin/za-perplexity-mcp.sh"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "${PERPLEXITY_API_KEY}"
+      }
+    }
+  }
+}

@@ -6,6 +6,9 @@
     "node": "22.x"
   },
   "overrides": {
+    "smol-toml": "1.9.0",
+    "source-map-js": "1.2.2",
+    "dompurify": "^3.4.16",
     "@sanity/runtime-cli": {
       "adm-zip": "^0.6.1"
     },
@@ -17,9 +20,21 @@
     }
   },
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks 2>/dev/null || true",
     "dev": "next dev",
+    "prebuild": "node seo/scripts/build-search-index.mjs",
     "build": "next build",
     "start": "next start",
+    "search:index": "node seo/scripts/build-search-index.mjs",
+    "seo:crawl": "node seo/scripts/crawl-site.mjs",
+    "seo:audit:sitemap": "node seo/scripts/audit-sitemap.mjs",
+    "seo:audit:canonicals": "node seo/scripts/audit-canonicals.mjs",
+    "seo:audit:schema": "node seo/scripts/audit-schema.mjs",
+    "seo:audit:search": "node seo/scripts/audit-search.mjs",
+    "seo:audit:claims": "node seo/scripts/audit-claims.mjs --paths /",
+    "seo:report:weekly": "node seo/scripts/generate-weekly-report.mjs",
+    "test:e2e": "playwright test",
+    "test:seo": "node --test tests/seo/",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "check:robots-static": "python3 scripts/check-robots-next-static.py",
@@ -29,7 +44,12 @@
     "check:seo": "npm run check:robots-static && npm run check:noindex-internal && npm run check:route-sitemap-drift && npm run check:blog-sitemap-reconcile",
     "check:reliability": "node scripts/verify-release.mjs --self-test && node scripts/check-build-contract.mjs",
     "verify:live": "node scripts/verify-release.mjs",
-    "check:security": "npm audit --audit-level=moderate",
+    "check:security": "node scripts/security-gate.mjs --check",
+    "check:supplier": "python3 scripts/check-supplier-confidentiality.py",
+    "check:claims": "python3 scripts/check-claims-integrity.py",
+    "security:heal": "node scripts/security-gate.mjs --heal",
+    "security:self-test": "node scripts/security-gate.mjs --self-test",
+    "check:design": "python3 scripts/audit-design-template.py --test && python3 scripts/audit-design-template.py --gate",
     "robots:preflight": "python3 \"tools/robots/robots preflight.py\"",
     "robots:test": "python3 \"tools/robots/robots pressure test.py\"",
     "robots:guard": "python3 \"tools/robots/robots guard.py\" --live https://zasupport.com/robots.txt",
@@ -44,14 +64,14 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.35.1",
     "lucide-react": "^0.577.0",
-    "next": "16.3.5",
+    "next": "16.3.8",
     "next-sanity": "^12.1.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-hook-form": "^7.71.2",
     "resend": "^6.9.3",
     "sanity": "^5.13.0",
-    "sharp": "0.35.4",
+    "sharp": "0.35.5",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
@@ -63,6 +83,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@playwright/test": "^1.47.0"
   }
 }
